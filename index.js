@@ -28,7 +28,7 @@ const getObjectives = () => {
         resolve(response.data)
       })
       .catch(function (error) {
-        console.log(error)
+        console.log('getObjectives', error.message)
         reject(error)
       })
   })
@@ -61,7 +61,7 @@ const getQuestionList = async (objective_ids, total_question = 100) => {
     const {data} = await axios(config)
     return data
   } catch (error) {
-    console.log(error)
+    console.log('getQuestionList', error.message)
   }
 }
 
@@ -92,7 +92,7 @@ const submit = async (hashId) => {
         resolve(response.data)
       })
       .catch(function (error) {
-        console.log(error)
+        console.log('submit', error.message)
         reject(error)
       })
   })
@@ -122,7 +122,7 @@ const getResult = (hashId) => {
         resolve(response.data)
       })
       .catch(function (error) {
-        console.log(error)
+        console.log('getResult', error.message)
         reject(error)
       })
   })
@@ -134,71 +134,76 @@ const writeToFile = (fileName, data) => {
 }
 
 async function run() {
-  const {data: objectivesData} = await getObjectives()
-  console.log('Starting')
-  const allQuestions = []
+  try {
+    const {data: objectivesData} = await getObjectives()
+    console.log('Starting')
+    const allQuestions = []
 
-  const objectives = objectivesData.reduce((acc, obj) => {
-    const {id, titleEn, slug, questionsCountPublic} = obj
-    let newAcc = {...acc, [id]: {id, titleEn, slug, questionsCountPublic}}
-    return newAcc
-  }, {})
+    const objectives = objectivesData.reduce((acc, obj) => {
+      const {id, titleEn, slug, questionsCountPublic} = obj
+      let newAcc = {...acc, [id]: {id, titleEn, slug, questionsCountPublic}}
+      return newAcc
+    }, {})
 
-  for (const [key, value] of Object.entries(objectives)) {
-    const objective_id = key
-    const maxQues = value.questionsCountPublic
+    for (const [key, value] of Object.entries(objectives)) {
+      const objective_id = key
+      const maxQues = value.questionsCountPublic
 
-    console.log(`Getting questions for ${objective_id}, total questions: ${maxQues}`)
+      console.log(`Getting questions for ${objective_id}, total questions: ${maxQues}`)
 
-    const questions = []
+      const questions = []
 
-    let lastTotalQuestions = 0
-    let fetchCount = 0
-    while (questions.length < maxQues) {
-      const {data: questionListData} = await getQuestionList(
-        objective_id,
-        Math.floor(maxQues / 3) > 100 ? 100 : Math.floor(maxQues / 3)
-      )
-      const {hashId} = questionListData
-      console.log(`Test hashId: ${hashId}`)
-      await submit(hashId)
-      const {data: resultData} = await getResult(hashId)
-      const {questions: returnedQuestions} = resultData
-      returnedQuestions.forEach((ques) => {
-        const {id, question, type, choices} = ques
-        const ans = choices.find((c) => c.rightAnswer === true)
-        if (!ans) {
-          console.log(`Question ${id} has no answers`)
-          return
+      let lastTotalQuestions = 0
+      let fetchCount = 0
+      while (questions.length < maxQues) {
+        const {data: questionListData} = await getQuestionList(
+          objective_id,
+          Math.floor(maxQues / 3) > 100 ? 100 : Math.floor(maxQues / 3)
+        )
+        const {hashId} = questionListData
+        console.log(`Test hashId: ${hashId}`)
+        await submit(hashId)
+        const {data: resultData} = await getResult(hashId)
+        const {questions: returnedQuestions} = resultData
+        returnedQuestions.forEach((ques) => {
+          const {id, question, choices} = ques
+          const ans = choices.find((c) => c.rightAnswer === true)
+          if (!ans) {
+            console.log(`Question ${id} has no answers`)
+            return
+          }
+          const shouldQuestionExist = questions.findIndex((q) => q.id === id)
+          if (shouldQuestionExist < 0) {
+            console.log(`Pushing question:  ${id}`)
+            questions.push({id, question, answer_label: ans.label, answer_id: ans.id})
+          }
+        })
+
+        if (questions.length > lastTotalQuestions) {
+          lastTotalQuestions = questions.length
+          fetchCount = 0
         }
-        const shouldQuestionExist = questions.findIndex((q) => q.id === id)
-        if (shouldQuestionExist < 0) {
-          console.log(`Pushing question:  ${id}`)
-          questions.push({id, question, type, answer_label: ans.label, answer_id: ans.id})
+
+        if (questions.length === lastTotalQuestions) {
+          fetchCount++
         }
-      })
 
-      if (questions.length > lastTotalQuestions) {
-        lastTotalQuestions = questions.length
-        fetchCount = 0
+        if (fetchCount === 10) {
+          break
+        }
+
+        console.log(`Current total questions: ${questions.length}`)
       }
 
-      if (questions.length === lastTotalQuestions) {
-        fetchCount++
-      }
-
-      if (fetchCount === 10) {
-        break
-      }
-
-      console.log(`Current total questions: ${questions.length}`)
+      allQuestions.push(...questions)
+      writeToFile(value.slug, questions)
     }
 
-    allQuestions.push(...questions)
-    writeToFile(value.slug, questions)
+    writeToFile('fe-questions', allQuestions)
+  } catch (error) {
+    console.log(error.message)
+    return run()
   }
-
-  writeToFile('fe-questions', allQuestions)
 }
 
 run()

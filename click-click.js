@@ -1,10 +1,5 @@
 /* eslint-disable no-var */
-var cookies = [
-  'viblo_learning_auth=eyJpdiI6IjJzcmFNbjJkejhpWkpqMnhlUEFiZnc9PSIsInZhbHVlIjoiekJ5c3pVcVBkTklWZkJWMHpvb1krdkdMQjc5MHlQOUdPZm03bUdZQ3F5anU4N0ozYVVyNEwwcUdYRkRQVzJWYU1HcUNUbGErOVZoNmtUSDE3VHZjRFlhN0ZVbWtJWGtadHZyTjNQK1k5RVdKMmNlNWo2Z05FUm1qVWVySElSSHJQTlV3N2FLRzVmUW5ndWVYMWV2Qzd3PT0iLCJtYWMiOiJmYWZjNGIyYTFkYTZmMTgxOGQ3NjY0ZDk4ZTM4ZDI5NDZhMDc2OWZiY2NjMjM0YjAxNTBiZjJhYmY2YTc2NTI5In0%3D; XSRF-TOKEN=EuzoYIbp-QaekLbFJVot5U6tZPv9M4N2rXSQ;',
-  'viblo_learning_auth=eyJpdiI6IlNsRDNpN2RNTWdqMG5EWElpXC9YVHRnPT0iLCJ2YWx1ZSI6IndtM2wwanMrRXFSNjdIV2creHhJa050WUZpNlpVakRIbVI3aG51YXJMbkZRajFZRklYY0JFU3UwcVluUTQ2SkJWQk9yRlRQQ3cra0JacVJDZFpQOTQ4MDRvcDlEclYzQmd6c3lsVytRdytpMHBRK3Jtdkt0d3hMYVRwdHJYdVFnb3oweUR0a3hXeDhDaTRvcFpaRWtJUT09IiwibWFjIjoiMTZkYWYxZDEwYzg0OTI1MzcwMTYzNmQ1NzE4MDdhNzhkYjUzYjRmNDQ2MWFkOWIzODQ0MjdhOWZlNTAwNDM0MCJ9; XSRF-TOKEN=aMgXJbHX-Bb6thdUNXVCWgGtYWCM_BET1knM;',
-]
-
-var fetchQuestions = async (cookie) => {
+var fetchQuestions = async () => {
   try {
     const data = await fetch('https://learn.viblo.asia/api/my-questions?orderBy=created_at&order=desc&status=draft', {
       headers: {
@@ -13,14 +8,12 @@ var fetchQuestions = async (cookie) => {
         'sec-fetch-dest': 'empty',
         'sec-fetch-mode': 'cors',
         'sec-fetch-site': 'same-origin',
-        cookie,
       },
       referrer: 'https://learn.viblo.asia/contribute-question',
       referrerPolicy: 'strict-origin-when-cross-origin',
       body: null,
       method: 'GET',
       mode: 'cors',
-      credentials: 'include',
     })
     return data.json()
   } catch (err) {
@@ -28,23 +21,11 @@ var fetchQuestions = async (cookie) => {
   }
 }
 
-var wait = (timeout) => {
-  return new Promise((resolve, reject) => {
-    setTimeout(() => {
-      resolve()
-    }, timeout)
-  })
-}
-
 async function run() {
   const allQuestions = []
-  for (const cookie of cookies) {
-    const fetchRes = await fetchQuestions(cookie)
-    const content = fetchRes.data.map((item) => JSON.parse(item.content))
-    for (const c of content) {
-      allQuestions.push(...c)
-    }
-  }
+  const fetchRes = await fetchQuestions()
+  const {content} = fetchRes.data[0]
+  allQuestions.push(...JSON.parse(content))
 
   const questionNumberList = document.querySelector('div.question-list').children
 
@@ -73,21 +54,29 @@ async function run() {
     return
   }
 
+  var wait = (timeout = 1000) => {
+    return new Promise((resolve, reject) => {
+      setTimeout(() => {
+        resolve()
+      }, timeout)
+    })
+  }
+
   for (const questionNumber of questionNumberList) {
     questionNumber.querySelector('a').click()
+
     const providedAnswers = document.querySelector('div.question-answers div.ant-radio-group-outline').children
 
-    const questionID = fromComponentQuestions[Number(questionNumber.innerText) - 1].id
-    const ans = allQuestions.find((q) => q.id === questionID)
-
+    const question = fromComponentQuestions[Number(questionNumber.innerText) - 1]
+    const questionID = question.id
+    const ans = allQuestions.find((q) => String(q.id) === String(questionID))
     if (!ans) {
       console.log(`There's no answer for question ${questionNumber.innerText}`)
     } else {
-      for (const providedAnswer of providedAnswers) {
-        if (providedAnswer.innerText === ans.answer_label) {
-          providedAnswer.querySelector('input').click()
-        }
-      }
+      const ans_order = question.choices.findIndex((item) => item.id === ans.answer_id)
+      console.log(`Answer for question ${questionNumber.innerText}: ${ans_order}`)
+      await wait()
+      providedAnswers[ans_order].querySelector('input').click()
     }
 
     // await wait(1000)
