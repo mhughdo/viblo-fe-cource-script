@@ -1,7 +1,9 @@
 /* eslint-disable no-var */
+const lang = 'en'
+const timeout = 60000
 var fetchQuestions = async () => {
   try {
-    const data = await fetch('https://iron-man-sat.s3-ap-southeast-1.amazonaws.com/fe-questions.json', {
+    const data = await fetch(`https://iron-man-sat.s3-ap-southeast-1.amazonaws.com/fe-questions-${lang}.json`, {
       headers: {
         accept: 'application/json, text/plain, */*',
       },
@@ -45,7 +47,7 @@ async function run() {
     return
   }
 
-  var wait = (timeout = 1000) => {
+  var wait = () => {
     return new Promise((resolve, reject) => {
       setTimeout(() => {
         resolve()

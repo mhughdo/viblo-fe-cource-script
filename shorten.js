@@ -1,7 +1,10 @@
 const fs = require('fs')
 
+// const lang = 'vi'
+const lang = 'en'
+
 async function run() {
-  const data = fs.readFileSync('./fe-questions.json', {encoding: 'utf8'})
+  const data = fs.readFileSync(`./fe-questions-full-${lang}.json`, {encoding: 'utf8'})
 
   const newData = JSON.parse(data).map((item) => {
     delete item.question
@@ -10,7 +13,7 @@ async function run() {
     return item
   })
 
-  fs.writeFileSync('./fe-questions.json', JSON.stringify([...newData]))
+  fs.writeFileSync(`./fe-questions-${lang}.json`, JSON.stringify([...newData]))
 }
 
 run()
