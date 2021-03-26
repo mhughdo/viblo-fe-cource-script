@@ -10,7 +10,7 @@ async function run() {
     return item
   })
 
-  fs.writeFileSync('./fe-questions.txt', JSON.stringify([...newData]))
+  fs.writeFileSync('./fe-questions.json', JSON.stringify([...newData]))
 }
 
 run()

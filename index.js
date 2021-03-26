@@ -2,7 +2,7 @@ let axios = require('axios')
 const fs = require('fs')
 
 const cookies =
-  '_ga=GA1.2.1526413519.1604511538; _csrf=kwUcPKEfJihk6r6i5hTmSdPZ; __cfduid=d0b25fb7d0753ee5027665ae9f0e3366e1614394714; _gid=GA1.2.1496287338.1616313390; __cf_bm=45150145661d9cd20adfe766afdc79e19fdf0ba7-1616313389-1800-AZ3rRH3rcjEGW0ndiozA2Ehz42ySRogFG0pk43UwSMWRndq+eWdFPiTmiGUYNScTo4EssbaqBBxP1zzofzTLvfw4jqYixB/hentNGhAeRb/tDC7LRGhfuj7mft1K/GxlWw==; viblo_session_nonce=291fd7ac2122bf81b7daecd135afdaeead7c83d31699e25da552ecfb65a77a06; viblo_learning_auth=eyJpdiI6IlBpendTS2dscUd1VW1HUWoxdUttU1E9PSIsInZhbHVlIjoiWmZlMU92V2ZFMHlxa2JuXC9cL0NJNlwvMHVPdkFzeVRWSGlXUHVDcnpHMG5Pa2Q2YjN5ZWtNQ0FoenM1dFRNSXNtd0ljMUFxelFWMmYyY1JMYlNiYjdVXC9wRGYyZkxwb2x4MHpRbDBhRldxaDVlN3hHV1Q1UTlZZVVhbnloamRvV1poaWU1RTBBMjg1TjdmbGVXKzlFSjdhdz09IiwibWFjIjoiMmQ4MTA2MDUwNTJlN2IwYmVlN2IyY2RhN2MxYWZmMzE3ZjJjOTkyMTMyZGFlOGE1OTlhYzMzNDUxOWFjOTU3NCJ9; connect.sid=s%3A7L19HAs9-LX9AGyVxRuMinR9RlIGBkbf.3Nzk73eBW9LGgbZ%2BRv%2FfV%2Fu7jlxGpC3xMLTjmZ9Kdn4; io=ZirPAULqC9WPxpBwAEDe; _gat=1; XSRF-TOKEN=atKyMx7J-QM11tZA0a3cLFSygX-NQ6afB5vg'
+  '_ga=GA1.2.1526413519.1604511538; _csrf=kwUcPKEfJihk6r6i5hTmSdPZ; __cfduid=d0b25fb7d0753ee5027665ae9f0e3366e1614394714; connect.sid=s%3ANzjXcU2gqp0AqjC3vDST8z6yhonHX2Pd.i%2BHB%2FbBn%2B0pRL1k5TS5fNUUUvSB3v1wazSyzqYqcZWE; _gid=GA1.2.299200491.1616728346; viblo_session_nonce=d4755a94a8e4c0383e621ef006545da0bf264faedb9629d2fe95e7ee35b08b43; viblo_learning_auth=eyJpdiI6Ilh5K3J0bVdhY2lEeFVZdlVSSGRHVHc9PSIsInZhbHVlIjoibWYrUjZvQTdKVWo1MHFteG8zT0VJSlF1bHhcL2pFeGlHVzFncnlyaERKbHBDQ3hwdzNsUGlDWXFPXC92NkJySUxQYWcyelQwSHIxTlVKNzdYN1MwQXR3V1ZFM01MdHU1QnpTem9JS0J5SzRYNHlNZ0RSVWZtOUVuMjNlakhIS052YTlXZXlWY0t5YjM2YXZ4RkdpQ24rVEE9PSIsIm1hYyI6IjI2ZTQxZjMwZTY2YzhkZTk0NjBmYThmMGQzNjJiODgwZjIzOTk5ODQ2ZTYwNTgwODljYjNkYTVkZmUzMmI4ODIifQ%3D%3D; __cf_bm=1bdfb9326a1f0e68e04c995a35d588ba8e0c0c07-1616729970-1800-AUOas6OErrheU0BIKHubNv/L6m43oUlmIy1Segjei/RQKU9xPBV5H/lC1B5ixrXQWJEEBC/XR/RT08g4boVbQZToZi4yi8JW1shVBFvoCEoW6LQdj2G9oQNW4J6KapR3LQ==; io=1LCkLN8B8j1_1jV9AFpe; XSRF-TOKEN=wtLhWIgz-ikhIQj7WiE5905-PEO-Ch0GuXCs; _gat=1'
 
 const getObjectives = () => {
   return new Promise((resolve, reject) => {
@@ -199,7 +199,7 @@ async function run() {
       writeToFile(value.slug, questions)
     }
 
-    writeToFile('fe-questions', allQuestions)
+    writeToFile('fe-questions-full.json', allQuestions)
   } catch (error) {
     console.log(error.message)
     return run()

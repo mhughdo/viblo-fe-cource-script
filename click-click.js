@@ -1,19 +1,11 @@
 /* eslint-disable no-var */
 var fetchQuestions = async () => {
   try {
-    const data = await fetch('https://learn.viblo.asia/api/my-questions?orderBy=created_at&order=desc&status=draft', {
+    const data = await fetch('https://iron-man-sat.s3-ap-southeast-1.amazonaws.com/fe-questions.json', {
       headers: {
         accept: 'application/json, text/plain, */*',
-        'accept-language': 'en-US,en;q=0.9',
-        'sec-fetch-dest': 'empty',
-        'sec-fetch-mode': 'cors',
-        'sec-fetch-site': 'same-origin',
       },
-      referrer: 'https://learn.viblo.asia/contribute-question',
-      referrerPolicy: 'strict-origin-when-cross-origin',
-      body: null,
       method: 'GET',
-      mode: 'cors',
     })
     return data.json()
   } catch (err) {
@@ -24,8 +16,7 @@ var fetchQuestions = async () => {
 async function run() {
   const allQuestions = []
   const fetchRes = await fetchQuestions()
-  const {content} = fetchRes.data[0]
-  allQuestions.push(...JSON.parse(content))
+  allQuestions.push(...fetchRes)
 
   const questionNumberList = document.querySelector('div.question-list').children
 
