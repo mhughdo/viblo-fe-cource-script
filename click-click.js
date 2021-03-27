@@ -1,6 +1,7 @@
 /* eslint-disable no-var */
-const lang = 'en'
-const timeout = 60000
+var lang = 'en'
+var timeout = 60000
+var shouldAutoClick = false
 var fetchQuestions = async () => {
   try {
     const data = await fetch(`https://iron-man-sat.s3-ap-southeast-1.amazonaws.com/fe-questions-${lang}.json`, {
@@ -68,11 +69,19 @@ async function run() {
     } else {
       const ans_order = question.choices.findIndex((item) => item.id === ans.answer_id)
       console.log(`Answer for question ${questionNumber.innerText}: ${ans_order}`)
-      await wait()
-      providedAnswers[ans_order].querySelector('input').click()
+      if (shouldAutoClick) {
+        await wait()
+        providedAnswers[ans_order].querySelector('input').click()
+      }
     }
 
     // await wait(1000)
+  }
+
+  if (!shouldAutoClick) {
+    for (const questionNumber of questionNumberList) {
+      questionNumber.querySelector('a div.question-item').classList.remove('not-answer-bg')
+    }
   }
 }
 

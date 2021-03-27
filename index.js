@@ -199,7 +199,10 @@ async function run() {
       writeToFile(`${value.slug}-${lang}`, questions)
     }
 
-    writeToFile(`fe-questions-full-${lang}`, allQuestions)
+    writeToFile(
+      `fe-questions-full-${lang}`,
+      allQuestions.sort((a, b) => a.id - b.id)
+    )
   } catch (error) {
     console.log(error.message)
     return run()
