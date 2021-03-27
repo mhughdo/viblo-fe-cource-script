@@ -1,7 +1,7 @@
 const fs = require('fs')
 
 // const lang = 'vi'
-const lang = 'en'
+const lang = 'vi'
 
 async function run() {
   const data = fs.readFileSync(`./fe-questions-full-${lang}.json`, {encoding: 'utf8'})

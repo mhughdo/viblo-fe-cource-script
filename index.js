@@ -4,7 +4,7 @@ const fs = require('fs')
 const cookies =
   '_ga=GA1.2.1526413519.1604511538; _csrf=kwUcPKEfJihk6r6i5hTmSdPZ; __cfduid=d0b25fb7d0753ee5027665ae9f0e3366e1614394714; connect.sid=s%3ANzjXcU2gqp0AqjC3vDST8z6yhonHX2Pd.i%2BHB%2FbBn%2B0pRL1k5TS5fNUUUvSB3v1wazSyzqYqcZWE; _gid=GA1.2.299200491.1616728346; viblo_session_nonce=d4755a94a8e4c0383e621ef006545da0bf264faedb9629d2fe95e7ee35b08b43; viblo_learning_auth=eyJpdiI6Ilh5K3J0bVdhY2lEeFVZdlVSSGRHVHc9PSIsInZhbHVlIjoibWYrUjZvQTdKVWo1MHFteG8zT0VJSlF1bHhcL2pFeGlHVzFncnlyaERKbHBDQ3hwdzNsUGlDWXFPXC92NkJySUxQYWcyelQwSHIxTlVKNzdYN1MwQXR3V1ZFM01MdHU1QnpTem9JS0J5SzRYNHlNZ0RSVWZtOUVuMjNlakhIS052YTlXZXlWY0t5YjM2YXZ4RkdpQ24rVEE9PSIsIm1hYyI6IjI2ZTQxZjMwZTY2YzhkZTk0NjBmYThmMGQzNjJiODgwZjIzOTk5ODQ2ZTYwNTgwODljYjNkYTVkZmUzMmI4ODIifQ%3D%3D; __cf_bm=1bdfb9326a1f0e68e04c995a35d588ba8e0c0c07-1616729970-1800-AUOas6OErrheU0BIKHubNv/L6m43oUlmIy1Segjei/RQKU9xPBV5H/lC1B5ixrXQWJEEBC/XR/RT08g4boVbQZToZi4yi8JW1shVBFvoCEoW6LQdj2G9oQNW4J6KapR3LQ==; io=1LCkLN8B8j1_1jV9AFpe; XSRF-TOKEN=wtLhWIgz-ikhIQj7WiE5905-PEO-Ch0GuXCs; _gat=1'
 
-const lang = 'en'
+const lang = 'vi'
 
 const getObjectives = () => {
   return new Promise((resolve, reject) => {

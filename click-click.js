@@ -1,7 +1,7 @@
 /* eslint-disable no-var */
 var lang = 'en'
-var timeout = 60000
-var shouldAutoClick = false
+var timeout = 0
+var shouldAutoClick = true
 var fetchQuestions = async () => {
   try {
     const data = await fetch(`https://iron-man-sat.s3-ap-southeast-1.amazonaws.com/fe-questions-${lang}.json`, {
@@ -69,8 +69,8 @@ async function run() {
     } else {
       const ans_order = question.choices.findIndex((item) => item.id === ans.answer_id)
       console.log(`Answer for question ${questionNumber.innerText}: ${ans_order}`)
+      await wait()
       if (shouldAutoClick) {
-        await wait()
         providedAnswers[ans_order].querySelector('input').click()
       }
     }

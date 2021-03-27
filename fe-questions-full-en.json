@@ -4320,6 +4320,12 @@
     "answer_id": 13674
   },
   {
+    "id": 3186,
+    "question": "There is a three-dimensional array A starting with A[1, 1, 1] and ending with A[3, 5, 7],\nand consecutive integers starting with 0 are stored in ascending order. What is the\nmaximum value (in hexadecimal) of the integers that can be stored in the array? Here,\neach number in the answer list is written in radix notation.\n![](https://learn.viblo.asia/uploads/9/e/9ecf92eb-647e-47d0-9db9-3331505dd76c.png)",
+    "answer_label": "a",
+    "answer_id": 13726
+  },
+  {
     "id": 3194,
     "question": "The flowchart below shows the algorithm that generates and prints a 4-digit decimal\nnumber where each digit is randomly generated and has a different decimal number.\nWhich of the following is the correct combination of expressions that can be inserted\ninto blanks A and B in the flowchart? Here, the function “random (0, 9)” is used to\ngenerate a random decimal integer from 0 through 9. The one-dimensional array “d”\nconsists of 10 elements d[0] through d[9].\n![](https://learn.viblo.asia/uploads/3/9/39625e64-6ce0-4c0d-97b0-0512b78fc061.png)",
     "answer_label": "d",

@@ -312,12 +312,6 @@
     "answer_id": 52100
   },
   {
-    "id": 13463,
-    "question": "Trong một hệ thống cơ sở dữ liệu phân tán, lựa chọn nào sau đây là một phương pháp để hoàn thiện xử lý cập nhật khi một truy vấn được tạo cho nhiều trang thực hiện một chuỗi các xử lý giao dịch như việc hoàn thiện có khả thi hay không và việc hoàn thiện có thể thực hiện trên tất cả các trang hay không?",
-    "answer_label": "Xác nhận hai pha",
-    "answer_id": 52105
-  },
-  {
     "id": 13464,
     "question": "Giao thức TCP/IP nào sau đây được sử dụng để chỉ định địa chỉ IP động?",
     "answer_label": "DHCP",
@@ -328,6 +322,12 @@
     "question": "Trong mô hình phân cấp mạng TCP/IP, tên của Thiết bị A kết nối hai phân đoạn LAN ở tầng Internet là gì?\n![](https://learn.viblo.asia/uploads/6/8/685fdcdf-46f4-415c-997f-53d4b613c232.jpg)",
     "answer_label": "Router",
     "answer_id": 52112
+  },
+  {
+    "id": 13466,
+    "question": "Lựa chọn nào sau đây là cặp địa chỉ IP thuộc cùng một subnet, khi mặt nạ mạng con là 255.255.255.240?",
+    "answer_label": "192.168.1.17 và 192.168.1.29",
+    "answer_id": 52115
   },
   {
     "id": 13467,
@@ -472,6 +472,12 @@
     "question": "TCP/IP là một tập hợp được phân tầng của các giao thức truyền thông bao gồm tầng Giao tiếp mạng, tầng Internet, tầng Giao vận, và tầng Ứng dụng. Lựa chọn nào sau đây là một sự kết hợp của các giao thức tầng Giao vận?",
     "answer_label": "TCP, UDP",
     "answer_id": 52213
+  },
+  {
+    "id": 13491,
+    "question": "Lựa chọn nào sau đây chịu trách nhiệm chuyển một tên miền tới một địa chỉ IP tương ứng?",
+    "answer_label": "Máy chủ DNS",
+    "answer_id": 52215
   },
   {
     "id": 13492,
