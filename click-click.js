@@ -69,7 +69,9 @@ async function run() {
     } else {
       const ans_order = question.choices.findIndex((item) => item.id === ans.answer_id)
       console.log(`Answer for question ${questionNumber.innerText}: ${ans_order}`)
-      await wait()
+      if (timeout) {
+        await wait()
+      }
       if (shouldAutoClick) {
         providedAnswers[ans_order].querySelector('input').click()
       }
