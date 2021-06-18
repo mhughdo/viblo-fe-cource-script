@@ -2,9 +2,9 @@ let axios = require('axios')
 const fs = require('fs')
 
 const cookies =
-  '_ga=GA1.2.1526413519.1604511538; _csrf=kwUcPKEfJihk6r6i5hTmSdPZ; __cfduid=d0b25fb7d0753ee5027665ae9f0e3366e1614394714; connect.sid=s%3ANzjXcU2gqp0AqjC3vDST8z6yhonHX2Pd.i%2BHB%2FbBn%2B0pRL1k5TS5fNUUUvSB3v1wazSyzqYqcZWE; _gid=GA1.2.299200491.1616728346; viblo_session_nonce=d4755a94a8e4c0383e621ef006545da0bf264faedb9629d2fe95e7ee35b08b43; viblo_learning_auth=eyJpdiI6Ilh5K3J0bVdhY2lEeFVZdlVSSGRHVHc9PSIsInZhbHVlIjoibWYrUjZvQTdKVWo1MHFteG8zT0VJSlF1bHhcL2pFeGlHVzFncnlyaERKbHBDQ3hwdzNsUGlDWXFPXC92NkJySUxQYWcyelQwSHIxTlVKNzdYN1MwQXR3V1ZFM01MdHU1QnpTem9JS0J5SzRYNHlNZ0RSVWZtOUVuMjNlakhIS052YTlXZXlWY0t5YjM2YXZ4RkdpQ24rVEE9PSIsIm1hYyI6IjI2ZTQxZjMwZTY2YzhkZTk0NjBmYThmMGQzNjJiODgwZjIzOTk5ODQ2ZTYwNTgwODljYjNkYTVkZmUzMmI4ODIifQ%3D%3D; __cf_bm=1bdfb9326a1f0e68e04c995a35d588ba8e0c0c07-1616729970-1800-AUOas6OErrheU0BIKHubNv/L6m43oUlmIy1Segjei/RQKU9xPBV5H/lC1B5ixrXQWJEEBC/XR/RT08g4boVbQZToZi4yi8JW1shVBFvoCEoW6LQdj2G9oQNW4J6KapR3LQ==; io=1LCkLN8B8j1_1jV9AFpe; XSRF-TOKEN=wtLhWIgz-ikhIQj7WiE5905-PEO-Ch0GuXCs; _gat=1'
+  '_ga=GA1.2.1526413519.1604511538; _csrf=kwUcPKEfJihk6r6i5hTmSdPZ; viblo_session_nonce=f40fc9cca0a492608a60497e3fc6e28509ae368e19ef93c46c4719933bebf0b0; viblo_learning_auth=eyJpdiI6IlF1OHZqYXVnSXdPQW04NkVqRlAwMnc9PSIsInZhbHVlIjoiSFdVaXNMOTh6eTZkaTA3Y0xDUFAyYk5uV2N3bEEza21NYmlQaHdnYUxcLzdISTBDMWNnSFZ0RzlYRUYwdkJLRFRlYU5ZbEhnTDg4S1BKUVhuWFN3M1JvRkVIYTdkdWJlQlZpNSt2XC9BbDZmakhFdWZFWDI1eDdzbVlUZXFjYjFFcjNvdjg1a3I3MEZYV0ZBcHRZMzlkckE9PSIsIm1hYyI6IjVlMjNhMWU2NWY5OTUyZjdmODZiOTk1OGNiY2VjNjIwYmFjMjlmMWM1ZDczNDc5NGU5NDI5MmIxY2IyMDNmNDYifQ%3D%3D; connect.sid=s%3Aq_4lCMV5-cN-5yq955_qMiOTSdcJBRdc.jq4lu04zhSO%2FlYpd0D1pBi4AQlrpvoo3%2F%2Fl7LCc2faQ; _gid=GA1.2.687518617.1622985322; __cf_bm=43e0748a7d3b4190c4afb5c2dc7c3a28ad6bed55-1622985322-1800-AXRIF/qVs4AT5Izp0mBw6TSi28vHgwPy/ENch55basbJRma9Mxkx2tDmjkj7LAWAyWLSl/FK9yc2twJnbzPuFEzar/MOheXQltYGPMQZazSZkd/s15tVMuEpgx8xiykpYw==; XSRF-TOKEN=1wwPfR40-4A-xaXYhvCiXdgvlIZvhKTTRd3g; io=PT4f_XWMtYpxMZMZABYp'
 
-const lang = 'vi'
+const lang = 'en'
 
 const getObjectives = () => {
   return new Promise((resolve, reject) => {
@@ -38,7 +38,7 @@ const getObjectives = () => {
 
 const getQuestionList = async (objective_ids, total_question = 100) => {
   try {
-    let bodyData = `{"total_question":${total_question},"time":1200,"lang":"${lang}"}`
+    let bodyData = `{"total_question":${total_question},"time":1200,"language":"${lang}", "objective_ids":["${objective_ids}"]}`
 
     let config = {
       method: 'post',
@@ -63,6 +63,11 @@ const getQuestionList = async (objective_ids, total_question = 100) => {
     const {data} = await axios(config)
     return data
   } catch (error) {
+    if (error?.request?.data?.message.indexOf('You are learning too fast') > -1) {
+      console.log('Learning too fast, watiting...')
+      await waiit()
+      return await getQuestionList(objective_ids, total_question)
+    }
     console.log('getQuestionList', error)
   }
 }
@@ -135,6 +140,14 @@ const writeToFile = (fileName, data) => {
   console.log(`Write ${fileName} to file successfully!`)
 }
 
+const waiit = (timeout = 250000) => {
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      resolve()
+    }, timeout)
+  })
+}
+
 async function run() {
   try {
     const {data: objectivesData} = await getObjectives()
@@ -188,21 +201,25 @@ async function run() {
           fetchCount++
         }
 
-        if (fetchCount === 10) {
+        if (fetchCount === 5) {
           break
         }
 
         console.log(`Current total questions: ${questions.length}`)
+        await waiit()
       }
 
       allQuestions.push(...questions)
       writeToFile(`${value.slug}-${lang}`, questions)
+      await waiit()
     }
 
     writeToFile(
       `fe-questions-full-${lang}`,
       allQuestions.sort((a, b) => a.id - b.id)
     )
+
+    process.exit(1)
   } catch (error) {
     console.log(error.message)
     return run()
