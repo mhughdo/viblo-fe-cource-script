@@ -2,7 +2,7 @@ let axios = require('axios')
 const fs = require('fs')
 
 const cookies =
-  '_ga=GA1.2.1526413519.1604511538; _csrf=kwUcPKEfJihk6r6i5hTmSdPZ; viblo_session_nonce=f40fc9cca0a492608a60497e3fc6e28509ae368e19ef93c46c4719933bebf0b0; viblo_learning_auth=eyJpdiI6IlF1OHZqYXVnSXdPQW04NkVqRlAwMnc9PSIsInZhbHVlIjoiSFdVaXNMOTh6eTZkaTA3Y0xDUFAyYk5uV2N3bEEza21NYmlQaHdnYUxcLzdISTBDMWNnSFZ0RzlYRUYwdkJLRFRlYU5ZbEhnTDg4S1BKUVhuWFN3M1JvRkVIYTdkdWJlQlZpNSt2XC9BbDZmakhFdWZFWDI1eDdzbVlUZXFjYjFFcjNvdjg1a3I3MEZYV0ZBcHRZMzlkckE9PSIsIm1hYyI6IjVlMjNhMWU2NWY5OTUyZjdmODZiOTk1OGNiY2VjNjIwYmFjMjlmMWM1ZDczNDc5NGU5NDI5MmIxY2IyMDNmNDYifQ%3D%3D; connect.sid=s%3Aq_4lCMV5-cN-5yq955_qMiOTSdcJBRdc.jq4lu04zhSO%2FlYpd0D1pBi4AQlrpvoo3%2F%2Fl7LCc2faQ; _gid=GA1.2.687518617.1622985322; __cf_bm=43e0748a7d3b4190c4afb5c2dc7c3a28ad6bed55-1622985322-1800-AXRIF/qVs4AT5Izp0mBw6TSi28vHgwPy/ENch55basbJRma9Mxkx2tDmjkj7LAWAyWLSl/FK9yc2twJnbzPuFEzar/MOheXQltYGPMQZazSZkd/s15tVMuEpgx8xiykpYw==; XSRF-TOKEN=1wwPfR40-4A-xaXYhvCiXdgvlIZvhKTTRd3g; io=PT4f_XWMtYpxMZMZABYp'
+  '_ga=GA1.2.2035527274.1629777985; viblo_session_nonce=9d55600a51aba4790c87e9b7f23e5f250cb588085927de7a8850480437dcf7f5; _csrf=1efDhBjYYH3xN__BYifKXGbB; viblo_learning_auth=eyJpdiI6ImtkRExXZHI5NkRFbmJiQ0h6RytJaHc9PSIsInZhbHVlIjoiUWp2eDhhUVEyN2lRT0dya3FYTVJmdHdudHNTa3hiKzY3c1ArQnV6YXlqR1czZXdYTW9LZmxabXJuQVlvRUo1elVMTGpnTU5ZRkpPOSt3V00rVkNRK2pibVdhNzFRVm9wRVA5XC9FaCtnR09FSFNwZDdDbkQxMHJNM3FoS1c4cUx4QWhcL1NlUnJsekFSU2ordUkrcnF0WWc9PSIsIm1hYyI6IjJhNTU2NzQyYzk0NDJiZGM0ZTA2NmU3NzQ2ZTE0NWI3OTRhYWQwY2IwOWEzOTQ0MzJkZGFkYTE4YmQyOTE0ZjcifQ%3D%3D; connect.sid=s%3ANXiJiwsq5cYZV-tTxyh3KKBwqijphK3l.cvYkZLp2Kt%2FEQlEryloVnoEYn6PWiJ6a%2B1Lt5fWmBxo; _gid=GA1.2.230031400.1634307894; __cf_bm=A4wx5fJnY9SKmNMoitay1eejw3hkEHC5aKEHWC4Fytk-1634307896-0-AXxxOt7XW4eFDXl3bXu2d+BbM8qPBx+w5uCcFDKuE1+hWs1R4gn8vXWcZrufcQPEcjardcTHQARZwb2LvDtkb258HxJoso7CFFkhahMQIDSCSQ2u9OxCP2j0fTN4i4XIMA==; XSRF-TOKEN=cKUCMnHg-BIzaUFAcGZE6aTV4wkHl0DUArGA'
 
 const lang = 'en'
 
@@ -13,13 +13,22 @@ const getObjectives = () => {
       url: 'https://learn.viblo.asia/api/exams/15/objectives',
       headers: {
         authority: 'learn.viblo.asia',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'sec-ch-ua': '"Chromium";v="94", "Microsoft Edge";v="94", ";Not A Brand";v="99"',
         accept: 'application/json, text/plain, */*',
+        'x-xsrf-token': 'ab8RXbyS-WM5cwkECDO28wyQliyo6-DJzNeM',
+        'sec-ch-ua-mobile': '?0',
+        'content-type': 'application/json;charset=UTF-8',
         'user-agent':
-          'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_2_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36 Edg/89.0.774.45',
-        'x-xsrf-token': 'WbR9qDHd-Y4yGTdxekZs32PJmFKds3USir48',
+          'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36 Edg/94.0.992.31',
+        'sec-ch-ua-platform': '"macOS"',
+        origin: 'https://learn.viblo.asia',
         'sec-fetch-site': 'same-origin',
         'sec-fetch-mode': 'cors',
         'sec-fetch-dest': 'empty',
+        referer:
+          'https://learn.viblo.asia/courses/fundamental-information-technology-engineer-examination-fe-VolejRejNm/exams/15',
         'accept-language': 'en-US,en;q=0.9',
         cookie: cookies,
       },
@@ -45,15 +54,22 @@ const getQuestionList = async (objective_ids, total_question = 100) => {
       url: `https://learn.viblo.asia/api/exams/15/objectives/practice?objective_ids[]=${objective_ids}`,
       headers: {
         authority: 'learn.viblo.asia',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'sec-ch-ua': '"Chromium";v="94", "Microsoft Edge";v="94", ";Not A Brand";v="99"',
         accept: 'application/json, text/plain, */*',
-        'x-xsrf-token': 'atKyMx7J-QM11tZA0a3cLFSygX-NQ6afB5vg',
-        'user-agent':
-          'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_2_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36 Edg/89.0.774.45',
+        'x-xsrf-token': 'ab8RXbyS-WM5cwkECDO28wyQliyo6-DJzNeM',
+        'sec-ch-ua-mobile': '?0',
         'content-type': 'application/json;charset=UTF-8',
+        'user-agent':
+          'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36 Edg/94.0.992.31',
+        'sec-ch-ua-platform': '"macOS"',
         origin: 'https://learn.viblo.asia',
         'sec-fetch-site': 'same-origin',
         'sec-fetch-mode': 'cors',
         'sec-fetch-dest': 'empty',
+        referer:
+          'https://learn.viblo.asia/courses/fundamental-information-technology-engineer-examination-fe-VolejRejNm/exams/15',
         'accept-language': 'en-US,en;q=0.9',
         cookie: cookies,
       },
@@ -63,12 +79,16 @@ const getQuestionList = async (objective_ids, total_question = 100) => {
     const {data} = await axios(config)
     return data
   } catch (error) {
-    if (error?.request?.data?.message.indexOf('You are learning too fast') > -1) {
+    console.log()
+    if (
+      error?.response?.data?.message.indexOf('You are learning too fast') > -1 ||
+      error?.response?.data?.message.indexOf('Bạn đang học quá nhanh') > -1
+    ) {
       console.log('Learning too fast, watiting...')
       await waiit()
       return await getQuestionList(objective_ids, total_question)
     }
-    console.log('getQuestionList', error)
+    // console.log('getQuestionList', error)
   }
 }
 
@@ -79,15 +99,22 @@ const submit = async (hashId) => {
       url: `https://learn.viblo.asia/api/tests/${hashId}/submissions`,
       headers: {
         authority: 'learn.viblo.asia',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'sec-ch-ua': '"Chromium";v="94", "Microsoft Edge";v="94", ";Not A Brand";v="99"',
         accept: 'application/json, text/plain, */*',
-        'x-xsrf-token': 'c8hkXKkE-Gd9HxqCErdhyLdh_cggtz7uAzdg',
-        'user-agent':
-          'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_2_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36 Edg/89.0.774.45',
+        'x-xsrf-token': 'ab8RXbyS-WM5cwkECDO28wyQliyo6-DJzNeM',
+        'sec-ch-ua-mobile': '?0',
         'content-type': 'application/json;charset=UTF-8',
+        'user-agent':
+          'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36 Edg/94.0.992.31',
+        'sec-ch-ua-platform': '"macOS"',
         origin: 'https://learn.viblo.asia',
         'sec-fetch-site': 'same-origin',
         'sec-fetch-mode': 'cors',
         'sec-fetch-dest': 'empty',
+        referer:
+          'https://learn.viblo.asia/courses/fundamental-information-technology-engineer-examination-fe-VolejRejNm/exams/15',
         'accept-language': 'en-US,en;q=0.9',
         cookie: cookies,
       },
@@ -112,13 +139,22 @@ const getResult = (hashId) => {
       url: `https://learn.viblo.asia/api/tests/${hashId}/result`,
       headers: {
         authority: 'learn.viblo.asia',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'sec-ch-ua': '"Chromium";v="94", "Microsoft Edge";v="94", ";Not A Brand";v="99"',
         accept: 'application/json, text/plain, */*',
+        'x-xsrf-token': 'ab8RXbyS-WM5cwkECDO28wyQliyo6-DJzNeM',
+        'sec-ch-ua-mobile': '?0',
+        'content-type': 'application/json;charset=UTF-8',
         'user-agent':
-          'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_2_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36 Edg/89.0.774.45',
-        'x-xsrf-token': 'soNcsNC2-L5uPkocCuEECOHogd2K7-BAU8nA',
+          'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36 Edg/94.0.992.31',
+        'sec-ch-ua-platform': '"macOS"',
+        origin: 'https://learn.viblo.asia',
         'sec-fetch-site': 'same-origin',
         'sec-fetch-mode': 'cors',
         'sec-fetch-dest': 'empty',
+        referer:
+          'https://learn.viblo.asia/courses/fundamental-information-technology-engineer-examination-fe-VolejRejNm/exams/15',
         'accept-language': 'en-US,en;q=0.9',
         cookie: cookies,
       },
@@ -155,7 +191,10 @@ async function run() {
     const allQuestions = []
 
     const objectives = objectivesData.reduce((acc, obj) => {
-      const {id, titleEn, slug, questionsCountPublic} = obj
+      const {id, titleEn, slug} = obj
+
+      const questionsCountPublic = lang === 'en' ? obj.publicEnQuestionCount : obj.publicViQuestionCount
+
       let newAcc = {...acc, [id]: {id, titleEn, slug, questionsCountPublic}}
       return newAcc
     }, {})
