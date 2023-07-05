@@ -1,1 +1,6465 @@
-{"36769":{"id":36769,"choices":[{"id":146775,"label":"`[\"three\", \"four\"]`"},{"id":146776,"label":"`[nil, \"three\", \"four\"]`"},{"id":146777,"label":"`[\"one\", \"two\", \"three\"]`"},{"id":146778,"label":"`[\"one\", \"two\", \"three\", \"four\"]`"}],"type":"single_choice","correctAnswer":146775,"questionCombinations":[{"answers":146775,"tried":true},{"answers":146776,"tried":false},{"answers":146777,"tried":false},{"answers":146778,"tried":false}],"foundCorrectAnswer":true},"36771":{"id":36771,"choices":[{"id":146783,"label":"`{:a=>100, :b=>200}`"},{"id":146784,"label":"`{:a=>nil, :b=>200}`"},{"id":146785,"label":"`{:b=>200}`"},{"id":146786,"label":"An Error occurs"}],"type":"single_choice","correctAnswer":146785,"questionCombinations":[{"answers":146783,"tried":true},{"answers":146784,"tried":true},{"answers":146785,"tried":true},{"answers":146786,"tried":false}],"foundCorrectAnswer":true},"36772":{"id":36772,"choices":[{"id":146787,"label":"`truetruetruetrue`"},{"id":146788,"label":"`falsefalsefalsefalse`"},{"id":146789,"label":"`truefalsefalsefalse`"},{"id":146790,"label":"`truefalsefalsetrue`"}],"type":"single_choice","correctAnswer":146790,"questionCombinations":[{"answers":146787,"tried":true},{"answers":146788,"tried":true},{"answers":146789,"tried":true},{"answers":146790,"tried":true}],"foundCorrectAnswer":true},"36773":{"id":36773,"choices":[{"id":146791,"label":"`[1, 2, 3, 5, 6, 7, 8]`"},{"id":146792,"label":"`[1, 3, 8]`"},{"id":146793,"label":"`[1, 2, 3, 5, 8]`"},{"id":146794,"label":"`[1, 3, 6, 7, 8]`"}],"type":"single_choice","correctAnswer":146792,"questionCombinations":[{"answers":146791,"tried":true},{"answers":146792,"tried":true},{"answers":146793,"tried":false},{"answers":146794,"tried":false}],"foundCorrectAnswer":true},"36774":{"id":36774,"choices":[{"id":146795,"label":"` tEacher`"},{"id":146796,"label":"`tEacher`"},{"id":146797,"label":"`tE`"},{"id":146798,"label":"` tE`"}],"type":"single_choice","correctAnswer":146796,"questionCombinations":[{"answers":146795,"tried":true},{"answers":146796,"tried":true},{"answers":146797,"tried":false},{"answers":146798,"tried":false}],"foundCorrectAnswer":true},"42976":{"id":42976,"choices":[{"id":170249,"label":"An exception is raised"},{"id":170250,"label":"`[1, 10]`"},{"id":170251,"label":"`[1, nil, nil, nil, nil, 10]`"},{"id":170252,"label":"`[1, 10, 10, 10, 10, 10]`"}],"type":"single_choice","correctAnswer":170250,"questionCombinations":[{"answers":170249,"tried":true},{"answers":170250,"tried":true},{"answers":170251,"tried":false},{"answers":170252,"tried":false}],"foundCorrectAnswer":true},"42977":{"id":42977,"choices":[{"id":170253,"label":"`[[:a, 100], [:b, 200]]`"},{"id":170254,"label":"`[[:a, 200], [:b, 100]]`"},{"id":170255,"label":"`[[100, :a], [200, :b]]`"},{"id":170256,"label":"`[[100, :b], [200, :a]]`"}],"type":"single_choice","correctAnswer":170253,"questionCombinations":[{"answers":170253,"tried":true},{"answers":170254,"tried":false},{"answers":170255,"tried":false},{"answers":170256,"tried":false}],"foundCorrectAnswer":true},"42979":{"id":42979,"choices":[{"id":170261,"label":"`3/3`"},{"id":170262,"label":"`NoMethodError`"},{"id":170263,"label":"`1/2`"},{"id":170264,"label":"`1/3`"}],"type":"single_choice","correctAnswer":170263,"questionCombinations":[{"answers":170261,"tried":true},{"answers":170262,"tried":true},{"answers":170263,"tried":true},{"answers":170264,"tried":false}],"foundCorrectAnswer":true},"42980":{"id":42980,"choices":[{"id":170265,"label":"`[]`"},{"id":170266,"label":"`[1, 3, 8]`"},{"id":170267,"label":"`[1, 2, 3, 5, 6, 7, 8]`"},{"id":170268,"label":"`[1, 2, 3, 5, 8]`"}],"type":"single_choice","correctAnswer":170266,"questionCombinations":[{"answers":170265,"tried":true},{"answers":170266,"tried":true},{"answers":170267,"tried":false},{"answers":170268,"tried":false}],"foundCorrectAnswer":true},"42981":{"id":42981,"choices":[{"id":170269,"label":"`3/3`"},{"id":170270,"label":"`NoMethodError`"},{"id":170271,"label":"`1/2`"},{"id":170272,"label":"`1/3`"}],"type":"single_choice","correctAnswer":170269,"questionCombinations":[{"answers":170269,"tried":true},{"answers":170270,"tried":false},{"answers":170271,"tried":false},{"answers":170272,"tried":false}],"foundCorrectAnswer":true},"42982":{"id":42982,"choices":[{"id":170273,"label":"`nil`"},{"id":170274,"label":"`REx`"},{"id":170275,"label":"`NoMethodError`"},{"id":170276,"label":"`NameError`"}],"type":"single_choice","correctAnswer":170274,"questionCombinations":[{"answers":170273,"tried":true},{"answers":170274,"tried":true},{"answers":170275,"tried":false},{"answers":170276,"tried":false}],"foundCorrectAnswer":true},"42983":{"id":42983,"choices":[{"id":170277,"label":"`StandardError`"},{"id":170278,"label":"`RuntimeError`"},{"id":170279,"label":"`Exception`"},{"id":170280,"label":"`nil`"}],"type":"single_choice","correctAnswer":170278,"questionCombinations":[{"answers":170277,"tried":true},{"answers":170278,"tried":true},{"answers":170279,"tried":false},{"answers":170280,"tried":false}],"foundCorrectAnswer":true},"42984":{"id":42984,"choices":[{"id":170281,"label":"`StandardError`"},{"id":170282,"label":"`RuntimeError`"},{"id":170283,"label":"`Exception`"},{"id":170284,"label":"`ArgumentError`"}],"type":"single_choice","correctAnswer":170284,"questionCombinations":[{"answers":170281,"tried":true},{"answers":170282,"tried":true},{"answers":170283,"tried":true},{"answers":170284,"tried":true}],"foundCorrectAnswer":true},"42985":{"id":42985,"choices":[{"id":170285,"label":"`\"HelloHelloHelloHelloHello\"`"},{"id":170286,"label":"`\"Hello\"`"},{"id":170287,"label":"`\"Hello5\"`"},{"id":170288,"label":"An error occurs"}],"type":"single_choice","correctAnswer":170287,"questionCombinations":[{"answers":170285,"tried":true},{"answers":170286,"tried":true},{"answers":170287,"tried":true},{"answers":170288,"tried":false}],"foundCorrectAnswer":true},"42986":{"id":42986,"choices":[{"id":170289,"label":"`/\\A[Ff]un\\z/`"},{"id":170290,"label":"`/\\AFun|fun\\z/`"},{"id":170291,"label":"`/\\A[Ff][u][n]\\z/`"},{"id":170292,"label":"`/\\AR|ruby\\z/`"}],"type":"multi_choice","correctAnswer":[170289,170291],"questionCombinations":[{"answers":[170289,170290],"tried":true},{"answers":[170289,170291],"tried":true},{"answers":[170289,170292],"tried":false},{"answers":[170290,170291],"tried":false},{"answers":[170290,170292],"tried":false},{"answers":[170291,170292],"tried":false},{"answers":[170289,170290,170291],"tried":false},{"answers":[170289,170290,170292],"tried":false},{"answers":[170289,170291,170292],"tried":false},{"answers":[170290,170291,170292],"tried":false},{"answers":[170289,170290,170291,170292],"tried":false}],"foundCorrectAnswer":true},"42987":{"id":42987,"choices":[{"id":170293,"label":"`capital ={:Sweden =>\"Stockholm\", :Norway=>\"Oslo\", :Finland=>\"Helsinki\"}`"},{"id":170294,"label":"`capital = {Sweden: \"Stockholm\", Norway: \"Oslo\", Finland: \"Helsinki\"}`"},{"id":170295,"label":"`capital = {\"Sweden\" = \"Stockholm\", \"Norway\" = \"Oslo\", \"Finland\" = \"Helsinki\"}`"},{"id":170296,"label":"`capital = Hash[:Sweden,  \"Stockholm\", :Norway ,\"Oslo\", :Finland, \"Helsinki\"]`"}],"type":"single_choice","correctAnswer":170295,"questionCombinations":[{"answers":170293,"tried":true},{"answers":170294,"tried":true},{"answers":170295,"tried":true},{"answers":170296,"tried":false}],"foundCorrectAnswer":true},"42988":{"id":42988,"choices":[{"id":170297,"label":"`Hello`"},{"id":170298,"label":"`nil`"},{"id":170299,"label":"Nothing appears"},{"id":170300,"label":"`false`"}],"type":"single_choice","correctAnswer":170297,"questionCombinations":[{"answers":170297,"tried":true},{"answers":170298,"tried":false},{"answers":170299,"tried":false},{"answers":170300,"tried":false}],"foundCorrectAnswer":true},"42989":{"id":42989,"choices":[{"id":170301,"label":"`nil`"},{"id":170302,"label":"`10`"},{"id":170303,"label":"`5`"},{"id":170304,"label":"`20`"},{"id":170305,"label":"`[5,10,15]`"}],"type":"single_choice","correctAnswer":170303,"questionCombinations":[{"answers":170301,"tried":true},{"answers":170302,"tried":true},{"answers":170303,"tried":true},{"answers":170304,"tried":false},{"answers":170305,"tried":false}],"foundCorrectAnswer":true},"42990":{"id":42990,"choices":[{"id":170306,"label":"`89`"},{"id":170307,"label":"`40`"},{"id":170308,"label":"`10`"},{"id":170309,"label":"`59`"}],"type":"single_choice","correctAnswer":170306,"questionCombinations":[{"answers":170306,"tried":true},{"answers":170307,"tried":false},{"answers":170308,"tried":false},{"answers":170309,"tried":false}],"foundCorrectAnswer":true},"42991":{"id":42991,"choices":[{"id":170310,"label":"```\ntrue\ntrue\n```"},{"id":170311,"label":"```\ntrue\nfalse\n```"},{"id":170312,"label":"```\nfalse\ntrue\n```"},{"id":170313,"label":"```\nfalse\nfalse\n```"}],"type":"single_choice","correctAnswer":170311,"questionCombinations":[{"answers":170310,"tried":true},{"answers":170311,"tried":true},{"answers":170312,"tried":false},{"answers":170313,"tried":false}],"foundCorrectAnswer":true},"42992":{"id":42992,"choices":[{"id":170314,"label":"`[\"a\", \"b,c,d\"]`"},{"id":170315,"label":"`[\"a\",\"b\",\"c\",\"d\"]`"},{"id":170316,"label":"`\"a\", \"b,c,\",\"d\"]`"},{"id":170317,"label":"`\"abcd\"`"}],"type":"single_choice","correctAnswer":170314,"questionCombinations":[{"answers":170314,"tried":true},{"answers":170315,"tried":false},{"answers":170316,"tried":false},{"answers":170317,"tried":false}],"foundCorrectAnswer":true},"42993":{"id":42993,"choices":[{"id":170318,"label":"`Hello`"},{"id":170319,"label":"`holland`"},{"id":170320,"label":"`Cello`"},{"id":170321,"label":"`h35L320`"}],"type":"multi_choice","correctAnswer":[170318,170320],"questionCombinations":[{"answers":[170318,170319],"tried":true},{"answers":[170318,170320],"tried":true},{"answers":[170318,170321],"tried":false},{"answers":[170319,170320],"tried":false},{"answers":[170319,170321],"tried":false},{"answers":[170320,170321],"tried":false},{"answers":[170318,170319,170320],"tried":false},{"answers":[170318,170319,170321],"tried":false},{"answers":[170318,170320,170321],"tried":false},{"answers":[170319,170320,170321],"tried":false},{"answers":[170318,170319,170320,170321],"tried":false}],"foundCorrectAnswer":true},"42994":{"id":42994,"choices":[{"id":170322,"label":"`true`"},{"id":170323,"label":"`[\"c\", \"c\", \"c\"]`"},{"id":170324,"label":"`5`"},{"id":170325,"label":"`NoMethodError`"}],"type":"single_choice","correctAnswer":170323,"questionCombinations":[{"answers":170322,"tried":true},{"answers":170323,"tried":true},{"answers":170324,"tried":false},{"answers":170325,"tried":false}],"foundCorrectAnswer":true},"42995":{"id":42995,"choices":[{"id":170326,"label":"`\"RubyAssociation\\r\"`"},{"id":170327,"label":"`\"RubyAssociation\"`"},{"id":170328,"label":"`\"RubyAssociation\\r\\n\"`"},{"id":170329,"label":"`\"RubyAssociation\\r\\n\\r\\n\"`"}],"type":"single_choice","correctAnswer":170327,"questionCombinations":[{"answers":170326,"tried":true},{"answers":170327,"tried":true},{"answers":170328,"tried":false},{"answers":170329,"tried":false}],"foundCorrectAnswer":true},"42997":{"id":42997,"choices":[{"id":170334,"label":"An error occurs"},{"id":170335,"label":"`[1, 10]`"},{"id":170336,"label":"`[1, nil, nil, nil, nil, 10]`"},{"id":170337,"label":"`[1, 10, 10, 10, 10, 10]`"}],"type":"single_choice","correctAnswer":170336,"questionCombinations":[{"answers":170334,"tried":true},{"answers":170335,"tried":true},{"answers":170336,"tried":true},{"answers":170337,"tried":false}],"foundCorrectAnswer":true},"42998":{"id":42998,"choices":[{"id":170338,"label":"`\"Liberty Fish \\r\\n\"`"},{"id":170339,"label":"`\"Liberty Fish \"`"},{"id":170340,"label":"`\"Liberty Fish\"`"},{"id":170341,"label":"`\"Liberty Fish \\r\"`"}],"type":"single_choice","correctAnswer":170338,"questionCombinations":[{"answers":170338,"tried":true},{"answers":170339,"tried":false},{"answers":170340,"tried":false},{"answers":170341,"tried":false}],"foundCorrectAnswer":true},"42999":{"id":42999,"choices":[{"id":170342,"label":"`8`"},{"id":170343,"label":"An error occurs"},{"id":170344,"label":"`4`"},{"id":170345,"label":"`nil`"}],"type":"single_choice","correctAnswer":170343,"questionCombinations":[{"answers":170342,"tried":true},{"answers":170343,"tried":true},{"answers":170344,"tried":false},{"answers":170345,"tried":false}],"foundCorrectAnswer":true},"43000":{"id":43000,"choices":[{"id":170346,"label":"`[\"apple\", \"banana\", \"orange\"].flatten!`"},{"id":170347,"label":"`[[\"apple\"],[\"banana\"],[\"orange\"]].flatten`"},{"id":170348,"label":"`[\"apple\", \"banana\", \"orange\"].reverse`"},{"id":170349,"label":"`%|apple banana orange|`"}],"type":"single_choice","correctAnswer":170348,"questionCombinations":[{"answers":170346,"tried":true},{"answers":170347,"tried":true},{"answers":170348,"tried":true},{"answers":170349,"tried":false}],"foundCorrectAnswer":true},"43001":{"id":43001,"choices":[{"id":170350,"label":"`\"Hello,Ruby\"`"},{"id":170351,"label":"`\"Hello,\\nRuby\\nEOF\"`"},{"id":170352,"label":"`\"Hello,\\nRuby\\n\"`"},{"id":170353,"label":"An error occurs"}],"type":"single_choice","correctAnswer":170352,"questionCombinations":[{"answers":170350,"tried":true},{"answers":170351,"tried":true},{"answers":170352,"tried":true},{"answers":170353,"tried":false}],"foundCorrectAnswer":true},"43002":{"id":43002,"choices":[{"id":170354,"label":"```ruby\nstr = \"abcdefgh\"\nputs str[-3..6]\n```"},{"id":170355,"label":"```ruby\nstr = \"abcdefgh\"\nputs str[4...-1]\n```"},{"id":170356,"label":"```ruby\nstr = \"abcdefgh\"\nputs str[4..0]\n```"},{"id":170357,"label":"```ruby\nstr = \"abcdefgh\"\nputs str[-4...7]\n```"}],"type":"single_choice","correctAnswer":170355,"questionCombinations":[{"answers":170354,"tried":true},{"answers":170355,"tried":true},{"answers":170356,"tried":false},{"answers":170357,"tried":false}],"foundCorrectAnswer":true},"43003":{"id":43003,"choices":[{"id":170358,"label":"An exception is raised"},{"id":170359,"label":"`\"I love @pple, b@n@n@ @nd grape\"`"},{"id":170360,"label":"`\"I love @pple, b@n@n@ @nd gr@pe\"`"},{"id":170361,"label":"`\"I love apple, banana and grape\"`"}],"type":"single_choice","correctAnswer":170359,"questionCombinations":[{"answers":170358,"tried":true},{"answers":170359,"tried":true},{"answers":170360,"tried":false},{"answers":170361,"tried":false}],"foundCorrectAnswer":true},"43004":{"id":43004,"choices":[{"id":170362,"label":"`[1]`"},{"id":170363,"label":"`[2]`"},{"id":170364,"label":"`[3]`"},{"id":170365,"label":"`[4]`"}],"type":"single_choice","correctAnswer":170364,"questionCombinations":[{"answers":170362,"tried":true},{"answers":170363,"tried":true},{"answers":170364,"tried":true},{"answers":170365,"tried":false}],"foundCorrectAnswer":true},"43005":{"id":43005,"choices":[{"id":170366,"label":"`Array`"},{"id":170367,"label":"`Hash`"},{"id":170368,"label":"`Symbol`"},{"id":170369,"label":"`Fixnum`"}],"type":"single_choice","correctAnswer":170366,"questionCombinations":[{"answers":170366,"tried":true},{"answers":170367,"tried":false},{"answers":170368,"tried":false},{"answers":170369,"tried":false}],"foundCorrectAnswer":true},"43006":{"id":43006,"choices":[{"id":170370,"label":"`5`"},{"id":170371,"label":"`4`"},{"id":170372,"label":"`3`"},{"id":170373,"label":"`9`"}],"type":"single_choice","correctAnswer":170371,"questionCombinations":[{"answers":170370,"tried":true},{"answers":170371,"tried":true},{"answers":170372,"tried":false},{"answers":170373,"tried":false}],"foundCorrectAnswer":true},"43007":{"id":43007,"choices":[{"id":170374,"label":"`[[1, 3], [2, 4]]`"},{"id":170375,"label":"`[1, 2]`"},{"id":170376,"label":"`[[1, 1, 2, 2], [3, 4, 3, 4]]`"},{"id":170377,"label":"`[[1, 3], [1, 4], [2, 3], [2, 4]]`"}],"type":"single_choice","correctAnswer":170377,"questionCombinations":[{"answers":170374,"tried":true},{"answers":170375,"tried":true},{"answers":170376,"tried":true},{"answers":170377,"tried":true}],"foundCorrectAnswer":true},"43008":{"id":43008,"choices":[{"id":170378,"label":"`[[1, 3], [2, 4]]`"},{"id":170379,"label":"`[1, 2]`"},{"id":170380,"label":"`[[1, 1, 2, 2], [3, 4, 3, 4]]`"},{"id":170381,"label":"`[[1, 3], [1, 4], [2, 3], [2, 4]]`"}],"type":"single_choice","correctAnswer":170380,"questionCombinations":[{"answers":170378,"tried":true},{"answers":170379,"tried":true},{"answers":170380,"tried":true},{"answers":170381,"tried":false}],"foundCorrectAnswer":true},"43009":{"id":43009,"choices":[{"id":170382,"label":"`'10'.oct`"},{"id":170383,"label":"`080`"},{"id":170384,"label":"`\"110\"`"},{"id":170385,"label":"`\"110\".to_i(2)`"}],"type":"single_choice","correctAnswer":170383,"questionCombinations":[{"answers":170382,"tried":true},{"answers":170383,"tried":true},{"answers":170384,"tried":false},{"answers":170385,"tried":false}],"foundCorrectAnswer":true},"43010":{"id":43010,"choices":[{"id":170386,"label":"`0xG9`"},{"id":170387,"label":"`\"0x10\".hex`"},{"id":170388,"label":"`\"010\".oct`"},{"id":170389,"label":"`\"10G\".to_i`"}],"type":"single_choice","correctAnswer":170386,"questionCombinations":[{"answers":170386,"tried":true},{"answers":170387,"tried":false},{"answers":170388,"tried":false},{"answers":170389,"tried":false}],"foundCorrectAnswer":true},"43011":{"id":43011,"choices":[{"id":170390,"label":"`[\"1\", \"2\", \"3\", \"4\"]`"},{"id":170391,"label":"`[\"4\", \"3\", \"2\", \"1\"]`"},{"id":170392,"label":"`[\"1;2:3;4\"]`"},{"id":170393,"label":"An error occurs"}],"type":"single_choice","correctAnswer":170390,"questionCombinations":[{"answers":170390,"tried":true},{"answers":170391,"tried":false},{"answers":170392,"tried":false},{"answers":170393,"tried":false}],"foundCorrectAnswer":true},"43012":{"id":43012,"choices":[{"id":170394,"label":"`24`"},{"id":170395,"label":"`5`"},{"id":170396,"label":"`7`"},{"id":170397,"label":"`0`"}],"type":"single_choice","correctAnswer":170395,"questionCombinations":[{"answers":170394,"tried":true},{"answers":170395,"tried":true},{"answers":170396,"tried":false},{"answers":170397,"tried":false}],"foundCorrectAnswer":true},"43013":{"id":43013,"choices":[{"id":170398,"label":"```\n{a: 100, b: 200}\n{a: 100, b: 200}\n```"},{"id":170399,"label":"```\n[100, :a]\n[200, :b]\n```"},{"id":170400,"label":"```\n{a: 100}\n{b: 200}\n```"},{"id":170401,"label":"```\n[:a, 100]\n[:b, 200]\n```"}],"type":"single_choice","correctAnswer":170401,"questionCombinations":[{"answers":170398,"tried":true},{"answers":170399,"tried":true},{"answers":170400,"tried":true},{"answers":170401,"tried":true}],"foundCorrectAnswer":true},"43014":{"id":43014,"choices":[{"id":170402,"label":"`truetruetruetrue`"},{"id":170403,"label":"`falsefalsefalsefalse`"},{"id":170404,"label":"`truefalsefalsefalse`"},{"id":170405,"label":"`truefalsefalsetrue`"}],"type":"single_choice","correctAnswer":170405,"questionCombinations":[{"answers":170402,"tried":true},{"answers":170403,"tried":true},{"answers":170404,"tried":true},{"answers":170405,"tried":true}],"foundCorrectAnswer":true},"43015":{"id":43015,"choices":[{"id":170406,"label":"`_365`"},{"id":170407,"label":"`z`"},{"id":170408,"label":"`7years`"},{"id":170409,"label":"`break`"},{"id":170410,"label":"`latitude`"}],"type":"multi_choice","correctAnswer":[170406,170407],"questionCombinations":[{"answers":[170406,170407],"tried":true},{"answers":[170406,170408],"tried":false},{"answers":[170406,170409],"tried":false},{"answers":[170406,170410],"tried":false},{"answers":[170407,170408],"tried":false},{"answers":[170407,170409],"tried":false},{"answers":[170407,170410],"tried":false},{"answers":[170408,170409],"tried":false},{"answers":[170408,170410],"tried":false},{"answers":[170409,170410],"tried":false},{"answers":[170406,170407,170408],"tried":false},{"answers":[170406,170407,170409],"tried":false},{"answers":[170406,170407,170410],"tried":false},{"answers":[170406,170408,170409],"tried":false},{"answers":[170406,170408,170410],"tried":false},{"answers":[170406,170409,170410],"tried":false},{"answers":[170407,170408,170409],"tried":false},{"answers":[170407,170408,170410],"tried":false},{"answers":[170407,170409,170410],"tried":false},{"answers":[170408,170409,170410],"tried":false},{"answers":[170406,170407,170408,170409],"tried":false},{"answers":[170406,170407,170408,170410],"tried":false},{"answers":[170406,170407,170409,170410],"tried":false},{"answers":[170406,170408,170409,170410],"tried":false},{"answers":[170407,170408,170409,170410],"tried":false},{"answers":[170406,170407,170408,170409,170410],"tried":false}],"foundCorrectAnswer":true},"43016":{"id":43016,"choices":[{"id":170411,"label":"`0xA`"},{"id":170412,"label":"`0xFF`"},{"id":170413,"label":"`012`"},{"id":170414,"label":"`077`"},{"id":170415,"label":"`0x10`"}],"type":"multi_choice","correctAnswer":[170411,170413],"questionCombinations":[{"answers":[170411,170412],"tried":true},{"answers":[170411,170413],"tried":true},{"answers":[170411,170414],"tried":false},{"answers":[170411,170415],"tried":false},{"answers":[170412,170413],"tried":false},{"answers":[170412,170414],"tried":false},{"answers":[170412,170415],"tried":false},{"answers":[170413,170414],"tried":false},{"answers":[170413,170415],"tried":false},{"answers":[170414,170415],"tried":false},{"answers":[170411,170412,170413],"tried":false},{"answers":[170411,170412,170414],"tried":false},{"answers":[170411,170412,170415],"tried":false},{"answers":[170411,170413,170414],"tried":false},{"answers":[170411,170413,170415],"tried":false},{"answers":[170411,170414,170415],"tried":false},{"answers":[170412,170413,170414],"tried":false},{"answers":[170412,170413,170415],"tried":false},{"answers":[170412,170414,170415],"tried":false},{"answers":[170413,170414,170415],"tried":false},{"answers":[170411,170412,170413,170414],"tried":false},{"answers":[170411,170412,170413,170415],"tried":false},{"answers":[170411,170412,170414,170415],"tried":false},{"answers":[170411,170413,170414,170415],"tried":false},{"answers":[170412,170413,170414,170415],"tried":false},{"answers":[170411,170412,170413,170414,170415],"tried":false}],"foundCorrectAnswer":true},"43017":{"id":43017,"choices":[{"id":170416,"label":"`[100,99,98,97,96,95,94,93,92,91,90]`"},{"id":170417,"label":"`[90,92,94,96,98,100]`"},{"id":170418,"label":"`[100,98,96,94,92,90]`"},{"id":170419,"label":"`[]`"}],"type":"single_choice","correctAnswer":170418,"questionCombinations":[{"answers":170416,"tried":true},{"answers":170417,"tried":true},{"answers":170418,"tried":true},{"answers":170419,"tried":false}],"foundCorrectAnswer":true},"43019":{"id":43019,"choices":[{"id":170425,"label":"`clear`"},{"id":170426,"label":"`remove`"},{"id":170427,"label":"`destroy`"},{"id":170428,"label":"`empty?`"}],"type":"single_choice","correctAnswer":170425,"questionCombinations":[{"answers":170425,"tried":true},{"answers":170426,"tried":false},{"answers":170427,"tried":false},{"answers":170428,"tried":false}],"foundCorrectAnswer":true},"43020":{"id":43020,"choices":[{"id":170429,"label":"`[1, 4]`"},{"id":170430,"label":"`[1, 2, 3, 4]`"},{"id":170431,"label":"`[1]`"},{"id":170432,"label":"`[1, 2, 3]`"}],"type":"single_choice","correctAnswer":170429,"questionCombinations":[{"answers":170429,"tried":true},{"answers":170430,"tried":false},{"answers":170431,"tried":false},{"answers":170432,"tried":false}],"foundCorrectAnswer":true},"43146":{"id":43146,"choices":[{"id":170842,"label":"`\"\"`"},{"id":170843,"label":"`0`"},{"id":170844,"label":"`false`"},{"id":170845,"label":"`nil`"}],"type":"multi_choice","correctAnswer":[170842,170843],"questionCombinations":[{"answers":[170842,170843],"tried":true},{"answers":[170842,170844],"tried":false},{"answers":[170842,170845],"tried":false},{"answers":[170843,170844],"tried":false},{"answers":[170843,170845],"tried":false},{"answers":[170844,170845],"tried":false},{"answers":[170842,170843,170844],"tried":false},{"answers":[170842,170843,170845],"tried":false},{"answers":[170842,170844,170845],"tried":false},{"answers":[170843,170844,170845],"tried":false},{"answers":[170842,170843,170844,170845],"tried":false}],"foundCorrectAnswer":true},"43147":{"id":43147,"choices":[{"id":170846,"label":"`each`"},{"id":170847,"label":"`rand`"},{"id":170848,"label":"`class`"},{"id":170849,"label":"`send`"},{"id":170850,"label":"`true`"}],"type":"multi_choice","correctAnswer":null,"questionCombinations":[{"answers":[170846,170847],"tried":true},{"answers":[170846,170848],"tried":true},{"answers":[170846,170849],"tried":true},{"answers":[170846,170850],"tried":true},{"answers":[170847,170848],"tried":true},{"answers":[170847,170849],"tried":true},{"answers":[170847,170850],"tried":true},{"answers":[170848,170849],"tried":true},{"answers":[170848,170850],"tried":false},{"answers":[170849,170850],"tried":false},{"answers":[170846,170847,170848],"tried":false},{"answers":[170846,170847,170849],"tried":false},{"answers":[170846,170847,170850],"tried":false},{"answers":[170846,170848,170849],"tried":false},{"answers":[170846,170848,170850],"tried":false},{"answers":[170846,170849,170850],"tried":false},{"answers":[170847,170848,170849],"tried":false},{"answers":[170847,170848,170850],"tried":false},{"answers":[170847,170849,170850],"tried":false},{"answers":[170848,170849,170850],"tried":false},{"answers":[170846,170847,170848,170849],"tried":false},{"answers":[170846,170847,170848,170850],"tried":false},{"answers":[170846,170847,170849,170850],"tried":false},{"answers":[170846,170848,170849,170850],"tried":false},{"answers":[170847,170848,170849,170850],"tried":false},{"answers":[170846,170847,170848,170849,170850],"tried":false}],"foundCorrectAnswer":false},"43148":{"id":43148,"choices":[{"id":170851,"label":"`3y`"},{"id":170852,"label":"`false`"},{"id":170853,"label":"`_9class`"},{"id":170854,"label":"`xyz$`"}],"type":"single_choice","correctAnswer":170853,"questionCombinations":[{"answers":170851,"tried":true},{"answers":170852,"tried":true},{"answers":170853,"tried":true},{"answers":170854,"tried":false}],"foundCorrectAnswer":true},"43149":{"id":43149,"choices":[{"id":170855,"label":"`puts \"i like writing #{$code}\"`"},{"id":170856,"label":"`puts \"i like writing #$code\"`"},{"id":170857,"label":"`puts 'i like writing #{$code}'`"},{"id":170858,"label":"`puts 'i like writing #$code'`"}],"type":"multi_choice","correctAnswer":[170855,170856],"questionCombinations":[{"answers":[170855,170856],"tried":true},{"answers":[170855,170857],"tried":false},{"answers":[170855,170858],"tried":false},{"answers":[170856,170857],"tried":false},{"answers":[170856,170858],"tried":false},{"answers":[170857,170858],"tried":false},{"answers":[170855,170856,170857],"tried":false},{"answers":[170855,170856,170858],"tried":false},{"answers":[170855,170857,170858],"tried":false},{"answers":[170856,170857,170858],"tried":false},{"answers":[170855,170856,170857,170858],"tried":false}],"foundCorrectAnswer":true},"43150":{"id":43150,"choices":[{"id":170859,"label":"`nil`"},{"id":170860,"label":"`025`"},{"id":170861,"label":"`21`"},{"id":170862,"label":"`25`"}],"type":"single_choice","correctAnswer":170861,"questionCombinations":[{"answers":170859,"tried":true},{"answers":170860,"tried":true},{"answers":170861,"tried":true},{"answers":170862,"tried":false}],"foundCorrectAnswer":true},"43151":{"id":43151,"choices":[{"id":170863,"label":"`1`"},{"id":170864,"label":"`2`"},{"id":170865,"label":"`\"Hello\"`"},{"id":170866,"label":"`true`"}],"type":"single_choice","correctAnswer":170864,"questionCombinations":[{"answers":170863,"tried":true},{"answers":170864,"tried":true},{"answers":170865,"tried":false},{"answers":170866,"tried":false}],"foundCorrectAnswer":true},"43152":{"id":43152,"choices":[{"id":170867,"label":"`\"S\"`"},{"id":170868,"label":"`\"M\"`"},{"id":170869,"label":"`\"L\"`"},{"id":170870,"label":"`\"XL\"`"}],"type":"single_choice","correctAnswer":170867,"questionCombinations":[{"answers":170867,"tried":true},{"answers":170868,"tried":false},{"answers":170869,"tried":false},{"answers":170870,"tried":false}],"foundCorrectAnswer":true},"43153":{"id":43153,"choices":[{"id":170871,"label":"A syntax error occurs"},{"id":170872,"label":"An exception is raised"},{"id":170873,"label":"```\nbanana\ncarrot\ndaikon\ndaikon\n```"},{"id":170874,"label":"```\nbanana\ncarrot\ndaikon\napple\n```"}],"type":"single_choice","correctAnswer":170874,"questionCombinations":[{"answers":170871,"tried":true},{"answers":170872,"tried":true},{"answers":170873,"tried":true},{"answers":170874,"tried":true}],"foundCorrectAnswer":true},"43154":{"id":43154,"choices":[{"id":170875,"label":"`0`"},{"id":170876,"label":"`4`"},{"id":170877,"label":"`6`"},{"id":170878,"label":"A syntax error occurs"}],"type":"single_choice","correctAnswer":170877,"questionCombinations":[{"answers":170875,"tried":true},{"answers":170876,"tried":true},{"answers":170877,"tried":true},{"answers":170878,"tried":false}],"foundCorrectAnswer":true},"43155":{"id":43155,"choices":[{"id":170879,"label":"`[97, 98, 99, 100, 101]`"},{"id":170880,"label":"`[194, 196, 198, 200, 202]`"},{"id":170881,"label":"`[\"a\", \"b\", \"c\", \"d\", \"e\"]`"},{"id":170882,"label":"`[\"aa\", \"bb\", \"cc\", \"dd\", \"ee\"]`"},{"id":170883,"label":"An error occurs at run-time."}],"type":"single_choice","correctAnswer":170882,"questionCombinations":[{"answers":170879,"tried":true},{"answers":170880,"tried":true},{"answers":170881,"tried":true},{"answers":170882,"tried":true},{"answers":170883,"tried":false}],"foundCorrectAnswer":true},"43156":{"id":43156,"choices":[{"id":170884,"label":"`{99=>2, 111=>2, 97=>1}`"},{"id":170885,"label":"`{?c=>2, ?o=>2, ?a=>1}`"},{"id":170886,"label":"`{\"c\"=>2, \"o\"=>2, \"a\"=>1}`"},{"id":170887,"label":"An error occurs at run-time."}],"type":"single_choice","correctAnswer":170886,"questionCombinations":[{"answers":170884,"tried":true},{"answers":170885,"tried":true},{"answers":170886,"tried":true},{"answers":170887,"tried":false}],"foundCorrectAnswer":true},"43157":{"id":43157,"choices":[{"id":170888,"label":"`sub`"},{"id":170889,"label":"`gsub`"},{"id":170890,"label":"`replace`"},{"id":170891,"label":"`replace_all`"}],"type":"single_choice","correctAnswer":170889,"questionCombinations":[{"answers":170888,"tried":true},{"answers":170889,"tried":true},{"answers":170890,"tried":false},{"answers":170891,"tried":false}],"foundCorrectAnswer":true},"43158":{"id":43158,"choices":[{"id":170892,"label":"`\"blank\"`"},{"id":170893,"label":"`\"long\"`"},{"id":170894,"label":"`\"short\"`"},{"id":170895,"label":"An exception is raised"}],"type":"single_choice","correctAnswer":170894,"questionCombinations":[{"answers":170892,"tried":true},{"answers":170893,"tried":true},{"answers":170894,"tried":true},{"answers":170895,"tried":false}],"foundCorrectAnswer":true},"43159":{"id":43159,"choices":[{"id":170896,"label":"```\n0\n100\n```"},{"id":170897,"label":"```\nnil\n100\n```"},{"id":170898,"label":"```\nfalse\n100\n```"},{"id":170899,"label":"A syntax error occurs."},{"id":170900,"label":"An error occurs at run-time."}],"type":"single_choice","correctAnswer":170897,"questionCombinations":[{"answers":170896,"tried":true},{"answers":170897,"tried":true},{"answers":170898,"tried":false},{"answers":170899,"tried":false},{"answers":170900,"tried":false}],"foundCorrectAnswer":true},"43160":{"id":43160,"choices":[{"id":170901,"label":"`[1, 2, 3]`"},{"id":170902,"label":"`[1, 4, 5]`"},{"id":170903,"label":"A syntax error occurs."},{"id":170904,"label":"An error occurs at run-time."}],"type":"single_choice","correctAnswer":170902,"questionCombinations":[{"answers":170901,"tried":true},{"answers":170902,"tried":true},{"answers":170903,"tried":false},{"answers":170904,"tried":false}],"foundCorrectAnswer":true},"43161":{"id":43161,"choices":[{"id":170905,"label":"`foo(*h)`"},{"id":170906,"label":"`foo(**h)`"},{"id":170907,"label":"`foo(&h)`"},{"id":170908,"label":"`foo(^h)`"}],"type":"single_choice","correctAnswer":170906,"questionCombinations":[{"answers":170905,"tried":true},{"answers":170906,"tried":true},{"answers":170907,"tried":false},{"answers":170908,"tried":false}],"foundCorrectAnswer":true},"43162":{"id":43162,"choices":[{"id":170909,"label":"`/\\A[Rr]uby\\z/`"},{"id":170910,"label":"`/\\ARuby|ruby\\z/`"},{"id":170911,"label":"`/\\A[Rr][u][b][y]\\z/`"},{"id":170912,"label":"`/\\AR|ruby\\z/`"}],"type":"multi_choice","correctAnswer":[170909,170911],"questionCombinations":[{"answers":[170909,170910],"tried":true},{"answers":[170909,170911],"tried":true},{"answers":[170909,170912],"tried":false},{"answers":[170910,170911],"tried":false},{"answers":[170910,170912],"tried":false},{"answers":[170911,170912],"tried":false},{"answers":[170909,170910,170911],"tried":false},{"answers":[170909,170910,170912],"tried":false},{"answers":[170909,170911,170912],"tried":false},{"answers":[170910,170911,170912],"tried":false},{"answers":[170909,170910,170911,170912],"tried":false}],"foundCorrectAnswer":true},"43163":{"id":43163,"choices":[{"id":170913,"label":"`47` is displayed without warning."},{"id":170914,"label":"An error occurs because MSG is a constant."},{"id":170915,"label":"`42` is displayed because MSG is a constant."},{"id":170916,"label":"A warning appears beacuse MSG is a constant but `47` is displayed."}],"type":"single_choice","correctAnswer":170916,"questionCombinations":[{"answers":170913,"tried":true},{"answers":170914,"tried":true},{"answers":170915,"tried":true},{"answers":170916,"tried":true}],"foundCorrectAnswer":true},"43164":{"id":43164,"choices":[{"id":170917,"label":"An error occurs because MSG is a constant."},{"id":170918,"label":"`HELLO` is displayed without warning."},{"id":170919,"label":"A warning apears because MSG is a constant but `HELLO` is displayed"},{"id":170920,"label":"`hello` is displayed since MSG is a constant."}],"type":"single_choice","correctAnswer":170918,"questionCombinations":[{"answers":170917,"tried":true},{"answers":170918,"tried":true},{"answers":170919,"tried":false},{"answers":170920,"tried":false}],"foundCorrectAnswer":true},"43166":{"id":43166,"choices":[{"id":170926,"label":"```\n[1, 3, 5, 7]\n[1, 2, 3, 4, 5, 6, 7, 8]\n```"},{"id":170927,"label":"```\n[1, 2, 3, 4, 5, 6, 7, 8]\n[1, 2, 3, 4, 5, 6, 7, 8]\n```"},{"id":170928,"label":"```\n[1, 3, 5, 7]\n[1, 3, 5, 7]\n```"},{"id":170929,"label":"```\n[1, 3, 5, 7]\n[2, 4, 6, 8]\n```"}],"type":"single_choice","correctAnswer":170928,"questionCombinations":[{"answers":170926,"tried":true},{"answers":170927,"tried":true},{"answers":170928,"tried":true},{"answers":170929,"tried":false}],"foundCorrectAnswer":true},"43167":{"id":43167,"choices":[{"id":170930,"label":"a"},{"id":170931,"label":"b"},{"id":170932,"label":"c"},{"id":170933,"label":"d"}],"type":"single_choice","correctAnswer":170932,"questionCombinations":[{"answers":170930,"tried":true},{"answers":170931,"tried":true},{"answers":170932,"tried":true},{"answers":170933,"tried":false}],"foundCorrectAnswer":true},"43168":{"id":43168,"choices":[{"id":170934,"label":"`x[1, 3]`"},{"id":170935,"label":"`x[1..-1]`"},{"id":170936,"label":"`x[-3..-1]`"},{"id":170937,"label":"`x[-4..-2]`"}],"type":"multi_choice","correctAnswer":[170934,170937],"questionCombinations":[{"answers":[170934,170935],"tried":true},{"answers":[170934,170936],"tried":true},{"answers":[170934,170937],"tried":true},{"answers":[170935,170936],"tried":false},{"answers":[170935,170937],"tried":false},{"answers":[170936,170937],"tried":false},{"answers":[170934,170935,170936],"tried":false},{"answers":[170934,170935,170937],"tried":false},{"answers":[170934,170936,170937],"tried":false},{"answers":[170935,170936,170937],"tried":false},{"answers":[170934,170935,170936,170937],"tried":false}],"foundCorrectAnswer":true},"43169":{"id":43169,"choices":[{"id":170938,"label":"`|`"},{"id":170939,"label":"`||`"},{"id":170940,"label":"`&`"},{"id":170941,"label":"`&&`"}],"type":"single_choice","correctAnswer":170939,"questionCombinations":[{"answers":170938,"tried":true},{"answers":170939,"tried":true},{"answers":170940,"tried":false},{"answers":170941,"tried":false}],"foundCorrectAnswer":true},"43170":{"id":43170,"choices":[{"id":170942,"label":"`true`"},{"id":170943,"label":"`false`"},{"id":170944,"label":"`nil`"},{"id":170945,"label":"A syntax error occurs."}],"type":"single_choice","correctAnswer":170944,"questionCombinations":[{"answers":170942,"tried":true},{"answers":170943,"tried":true},{"answers":170944,"tried":true},{"answers":170945,"tried":false}],"foundCorrectAnswer":true},"43171":{"id":43171,"choices":[{"id":170946,"label":"`collect`"},{"id":170947,"label":"`select`"},{"id":170948,"label":"`map`"},{"id":170949,"label":"`filter`"},{"id":170950,"label":"`filter_map`"}],"type":"multi_choice","correctAnswer":[170947,170949],"questionCombinations":[{"answers":[170946,170947],"tried":true},{"answers":[170946,170948],"tried":true},{"answers":[170946,170949],"tried":true},{"answers":[170946,170950],"tried":true},{"answers":[170947,170948],"tried":true},{"answers":[170947,170949],"tried":true},{"answers":[170947,170950],"tried":false},{"answers":[170948,170949],"tried":false},{"answers":[170948,170950],"tried":false},{"answers":[170949,170950],"tried":false},{"answers":[170946,170947,170948],"tried":false},{"answers":[170946,170947,170949],"tried":false},{"answers":[170946,170947,170950],"tried":false},{"answers":[170946,170948,170949],"tried":false},{"answers":[170946,170948,170950],"tried":false},{"answers":[170946,170949,170950],"tried":false},{"answers":[170947,170948,170949],"tried":false},{"answers":[170947,170948,170950],"tried":false},{"answers":[170947,170949,170950],"tried":false},{"answers":[170948,170949,170950],"tried":false},{"answers":[170946,170947,170948,170949],"tried":false},{"answers":[170946,170947,170948,170950],"tried":false},{"answers":[170946,170947,170949,170950],"tried":false},{"answers":[170946,170948,170949,170950],"tried":false},{"answers":[170947,170948,170949,170950],"tried":false},{"answers":[170946,170947,170948,170949,170950],"tried":false}],"foundCorrectAnswer":true},"43172":{"id":43172,"choices":[{"id":170951,"label":"`42`"},{"id":170952,"label":"`42A7`"},{"id":170953,"label":"`17063`"},{"id":170954,"label":"An error occurs at run-time."}],"type":"single_choice","correctAnswer":170951,"questionCombinations":[{"answers":170951,"tried":true},{"answers":170952,"tried":false},{"answers":170953,"tried":false},{"answers":170954,"tried":false}],"foundCorrectAnswer":true},"43173":{"id":43173,"choices":[{"id":170955,"label":"`p h.has_key?(:c)`"},{"id":170956,"label":"`p h.contain?(:c)`"},{"id":170957,"label":"`p h.include?(:c)`"},{"id":170958,"label":"`p h.key?(:c)`"},{"id":170959,"label":"`p h.member?(:c)`"}],"type":"single_choice","correctAnswer":170956,"questionCombinations":[{"answers":170955,"tried":true},{"answers":170956,"tried":true},{"answers":170957,"tried":false},{"answers":170958,"tried":false},{"answers":170959,"tried":false}],"foundCorrectAnswer":true},"43174":{"id":43174,"choices":[{"id":170960,"label":"`reject! {|i| i < 80}`"},{"id":170961,"label":"`slice {|i| i < 80 }`"},{"id":170962,"label":"`slice! {|i| i < 80}`"},{"id":170963,"label":"`delete_if! {|i| i < 80}`"},{"id":170964,"label":"`delete_if {|i| i < 80}`"},{"id":170965,"label":"`reject {|i| i < 80}`"}],"type":"multi_choice","correctAnswer":[170960,170964],"questionCombinations":[{"answers":[170960,170961],"tried":true},{"answers":[170960,170962],"tried":true},{"answers":[170960,170963],"tried":true},{"answers":[170960,170964],"tried":true},{"answers":[170960,170965],"tried":false},{"answers":[170961,170962],"tried":false},{"answers":[170961,170963],"tried":false},{"answers":[170961,170964],"tried":false},{"answers":[170961,170965],"tried":false},{"answers":[170962,170963],"tried":false},{"answers":[170962,170964],"tried":false},{"answers":[170962,170965],"tried":false},{"answers":[170963,170964],"tried":false},{"answers":[170963,170965],"tried":false},{"answers":[170964,170965],"tried":false},{"answers":[170960,170961,170962],"tried":false},{"answers":[170960,170961,170963],"tried":false},{"answers":[170960,170961,170964],"tried":false},{"answers":[170960,170961,170965],"tried":false},{"answers":[170960,170962,170963],"tried":false},{"answers":[170960,170962,170964],"tried":false},{"answers":[170960,170962,170965],"tried":false},{"answers":[170960,170963,170964],"tried":false},{"answers":[170960,170963,170965],"tried":false},{"answers":[170960,170964,170965],"tried":false},{"answers":[170961,170962,170963],"tried":false},{"answers":[170961,170962,170964],"tried":false},{"answers":[170961,170962,170965],"tried":false},{"answers":[170961,170963,170964],"tried":false},{"answers":[170961,170963,170965],"tried":false},{"answers":[170961,170964,170965],"tried":false},{"answers":[170962,170963,170964],"tried":false},{"answers":[170962,170963,170965],"tried":false},{"answers":[170962,170964,170965],"tried":false},{"answers":[170963,170964,170965],"tried":false},{"answers":[170960,170961,170962,170963],"tried":false},{"answers":[170960,170961,170962,170964],"tried":false},{"answers":[170960,170961,170962,170965],"tried":false},{"answers":[170960,170961,170963,170964],"tried":false},{"answers":[170960,170961,170963,170965],"tried":false},{"answers":[170960,170961,170964,170965],"tried":false},{"answers":[170960,170962,170963,170964],"tried":false},{"answers":[170960,170962,170963,170965],"tried":false},{"answers":[170960,170962,170964,170965],"tried":false},{"answers":[170960,170963,170964,170965],"tried":false},{"answers":[170961,170962,170963,170964],"tried":false},{"answers":[170961,170962,170963,170965],"tried":false},{"answers":[170961,170962,170964,170965],"tried":false},{"answers":[170961,170963,170964,170965],"tried":false},{"answers":[170962,170963,170964,170965],"tried":false},{"answers":[170960,170961,170962,170963,170964],"tried":false},{"answers":[170960,170961,170962,170963,170965],"tried":false},{"answers":[170960,170961,170962,170964,170965],"tried":false},{"answers":[170960,170961,170963,170964,170965],"tried":false},{"answers":[170960,170962,170963,170964,170965],"tried":false},{"answers":[170961,170962,170963,170964,170965],"tried":false},{"answers":[170960,170961,170962,170963,170964,170965],"tried":false}],"foundCorrectAnswer":true},"43175":{"id":43175,"choices":[{"id":170966,"label":"`.concat`"},{"id":170967,"label":"`&`"},{"id":170968,"label":"`|`"},{"id":170969,"label":"`||`"}],"type":"single_choice","correctAnswer":170968,"questionCombinations":[{"answers":170966,"tried":true},{"answers":170967,"tried":true},{"answers":170968,"tried":true},{"answers":170969,"tried":false}],"foundCorrectAnswer":true},"43176":{"id":43176,"choices":[{"id":170970,"label":"No output."},{"id":170971,"label":"An error occurs at run-time."},{"id":170972,"label":"`MOO!`"},{"id":170973,"label":"`nil`"}],"type":"single_choice","correctAnswer":170972,"questionCombinations":[{"answers":170970,"tried":true},{"answers":170971,"tried":true},{"answers":170972,"tried":true},{"answers":170973,"tried":false}],"foundCorrectAnswer":true},"43177":{"id":43177,"choices":[{"id":170974,"label":"an `UndefinedParentClassError` exception is raised"},{"id":170975,"label":"a syntax error occurs"},{"id":170976,"label":"the `Module` class becomes the superclass."},{"id":170977,"label":"the class is created without a superclass."},{"id":170978,"label":"the `Object` class becomes the superclass."}],"type":"single_choice","correctAnswer":170978,"questionCombinations":[{"answers":170974,"tried":true},{"answers":170975,"tried":true},{"answers":170976,"tried":true},{"answers":170977,"tried":true},{"answers":170978,"tried":true}],"foundCorrectAnswer":true},"43178":{"id":43178,"choices":[{"id":170979,"label":"A syntax error"},{"id":170980,"label":"`SomeError`"},{"id":170981,"label":"`SomeErrorSomeOtherError`"},{"id":170982,"label":"`SomeOtherError`"}],"type":"single_choice","correctAnswer":170980,"questionCombinations":[{"answers":170979,"tried":true},{"answers":170980,"tried":true},{"answers":170981,"tried":false},{"answers":170982,"tried":false}],"foundCorrectAnswer":true},"43179":{"id":43179,"choices":[{"id":170983,"label":"`\"x1 x2 x3\"`"},{"id":170984,"label":"`[1, 2, 3]`"},{"id":170985,"label":"`[\"x1\", \"x2\", \"x3\"]`"},{"id":170986,"label":"`[:x1, :x2, :x3]`"}],"type":"single_choice","correctAnswer":170986,"questionCombinations":[{"answers":170983,"tried":true},{"answers":170984,"tried":true},{"answers":170985,"tried":true},{"answers":170986,"tried":true}],"foundCorrectAnswer":true},"43180":{"id":43180,"choices":[{"id":170987,"label":"```\n0\nDONE!\n```"},{"id":170988,"label":"```\nError: ZeroDivisionError\n```"},{"id":170989,"label":"```\nError: ZeroDivisionError\nDONE!\n```"},{"id":170990,"label":"```\nError: ZeroDivisionError\n0\n```"}],"type":"single_choice","correctAnswer":170989,"questionCombinations":[{"answers":170987,"tried":true},{"answers":170988,"tried":true},{"answers":170989,"tried":true},{"answers":170990,"tried":false}],"foundCorrectAnswer":true},"43181":{"id":43181,"choices":[{"id":170991,"label":"`Shouter`"},{"id":170992,"label":"`new`"},{"id":170993,"label":"`initialize`"},{"id":170994,"label":"`__init__`"}],"type":"single_choice","correctAnswer":170993,"questionCombinations":[{"answers":170991,"tried":true},{"answers":170992,"tried":true},{"answers":170993,"tried":true},{"answers":170994,"tried":false}],"foundCorrectAnswer":true},"43182":{"id":43182,"choices":[{"id":170995,"label":"`Shouter`"},{"id":170996,"label":"`#Shouter`"},{"id":170997,"label":"`new Shouter`"},{"id":170998,"label":"`Shouter.new`"}],"type":"single_choice","correctAnswer":170998,"questionCombinations":[{"answers":170995,"tried":true},{"answers":170996,"tried":true},{"answers":170997,"tried":true},{"answers":170998,"tried":true}],"foundCorrectAnswer":true},"43183":{"id":43183,"choices":[{"id":170999,"label":"`\"apple\"`"},{"id":171000,"label":"`\"banana\"`"},{"id":171001,"label":"No output"},{"id":171002,"label":"An error occurs at run-time."}],"type":"single_choice","correctAnswer":170999,"questionCombinations":[{"answers":170999,"tried":true},{"answers":171000,"tried":false},{"answers":171001,"tried":false},{"answers":171002,"tried":false}],"foundCorrectAnswer":true},"43184":{"id":43184,"choices":[{"id":171003,"label":"`sub`"},{"id":171004,"label":"`chop`"},{"id":171005,"label":"`delete`"},{"id":171006,"label":"`delete_prefix`"}],"type":"single_choice","correctAnswer":171006,"questionCombinations":[{"answers":171003,"tried":true},{"answers":171004,"tried":true},{"answers":171005,"tried":true},{"answers":171006,"tried":true}],"foundCorrectAnswer":true},"43185":{"id":43185,"choices":[{"id":171007,"label":"`\"hihihihihi\"`"},{"id":171008,"label":"An error occurs at run-time."},{"id":171009,"label":"`\"5hi\"`"},{"id":171010,"label":"`\"5*hi\"`"}],"type":"single_choice","correctAnswer":171008,"questionCombinations":[{"answers":171007,"tried":true},{"answers":171008,"tried":true},{"answers":171009,"tried":false},{"answers":171010,"tried":false}],"foundCorrectAnswer":true},"43186":{"id":43186,"choices":[{"id":171011,"label":"`\"boo\"`"},{"id":171012,"label":"`\"bot\"`"},{"id":171013,"label":"`\"oat\"`"},{"id":171014,"label":"`\"o\"`"}],"type":"single_choice","correctAnswer":171012,"questionCombinations":[{"answers":171011,"tried":true},{"answers":171012,"tried":true},{"answers":171013,"tried":false},{"answers":171014,"tried":false}],"foundCorrectAnswer":true},"43187":{"id":43187,"choices":[{"id":171015,"label":"`\"hello \"`"},{"id":171016,"label":"`\"ruby\"`"},{"id":171017,"label":"`\" world\"`"},{"id":171018,"label":"An error occurs at run-time."}],"type":"single_choice","correctAnswer":171016,"questionCombinations":[{"answers":171015,"tried":true},{"answers":171016,"tried":true},{"answers":171017,"tried":false},{"answers":171018,"tried":false}],"foundCorrectAnswer":true},"43188":{"id":43188,"choices":[{"id":171019,"label":"`Dir.pwd`"},{"id":171020,"label":"`Dir.rename`"},{"id":171021,"label":"`Dir.basename`"},{"id":171022,"label":"`Dir.chdir`"},{"id":171023,"label":"`Dir.delete`"}],"type":"multi_choice","correctAnswer":[171020,171021],"questionCombinations":[{"answers":[171019,171020],"tried":true},{"answers":[171019,171021],"tried":true},{"answers":[171019,171022],"tried":true},{"answers":[171019,171023],"tried":true},{"answers":[171020,171021],"tried":true},{"answers":[171020,171022],"tried":false},{"answers":[171020,171023],"tried":false},{"answers":[171021,171022],"tried":false},{"answers":[171021,171023],"tried":false},{"answers":[171022,171023],"tried":false},{"answers":[171019,171020,171021],"tried":false},{"answers":[171019,171020,171022],"tried":false},{"answers":[171019,171020,171023],"tried":false},{"answers":[171019,171021,171022],"tried":false},{"answers":[171019,171021,171023],"tried":false},{"answers":[171019,171022,171023],"tried":false},{"answers":[171020,171021,171022],"tried":false},{"answers":[171020,171021,171023],"tried":false},{"answers":[171020,171022,171023],"tried":false},{"answers":[171021,171022,171023],"tried":false},{"answers":[171019,171020,171021,171022],"tried":false},{"answers":[171019,171020,171021,171023],"tried":false},{"answers":[171019,171020,171022,171023],"tried":false},{"answers":[171019,171021,171022,171023],"tried":false},{"answers":[171020,171021,171022,171023],"tried":false},{"answers":[171019,171020,171021,171022,171023],"tried":false}],"foundCorrectAnswer":true},"43189":{"id":43189,"choices":[{"id":171024,"label":"`r+`"},{"id":171025,"label":"`a`"},{"id":171026,"label":"`a+`"},{"id":171027,"label":"`w`"},{"id":171028,"label":"`w+`"}],"type":"multi_choice","correctAnswer":null,"questionCombinations":[{"answers":[171024,171025],"tried":true},{"answers":[171024,171026],"tried":true},{"answers":[171024,171027],"tried":true},{"answers":[171024,171028],"tried":true},{"answers":[171025,171026],"tried":true},{"answers":[171025,171027],"tried":true},{"answers":[171025,171028],"tried":true},{"answers":[171026,171027],"tried":true},{"answers":[171026,171028],"tried":false},{"answers":[171027,171028],"tried":false},{"answers":[171024,171025,171026],"tried":false},{"answers":[171024,171025,171027],"tried":false},{"answers":[171024,171025,171028],"tried":false},{"answers":[171024,171026,171027],"tried":false},{"answers":[171024,171026,171028],"tried":false},{"answers":[171024,171027,171028],"tried":false},{"answers":[171025,171026,171027],"tried":false},{"answers":[171025,171026,171028],"tried":false},{"answers":[171025,171027,171028],"tried":false},{"answers":[171026,171027,171028],"tried":false},{"answers":[171024,171025,171026,171027],"tried":false},{"answers":[171024,171025,171026,171028],"tried":false},{"answers":[171024,171025,171027,171028],"tried":false},{"answers":[171024,171026,171027,171028],"tried":false},{"answers":[171025,171026,171027,171028],"tried":false},{"answers":[171024,171025,171026,171027,171028],"tried":false}],"foundCorrectAnswer":false},"43190":{"id":43190,"choices":[{"id":171029,"label":"`array`"},{"id":171030,"label":"`to_ary`"},{"id":171031,"label":"`to_a`"},{"id":171032,"label":"`to_array`"}],"type":"single_choice","correctAnswer":171031,"questionCombinations":[{"answers":171029,"tried":true},{"answers":171030,"tried":true},{"answers":171031,"tried":true},{"answers":171032,"tried":false}],"foundCorrectAnswer":true},"43191":{"id":43191,"choices":[{"id":171033,"label":"`r`"},{"id":171034,"label":"`r+`"},{"id":171035,"label":"`a`"},{"id":171036,"label":"`a+`"},{"id":171037,"label":"`w`"},{"id":171038,"label":"`w+`"}],"type":"single_choice","correctAnswer":171033,"questionCombinations":[{"answers":171033,"tried":true},{"answers":171034,"tried":false},{"answers":171035,"tried":false},{"answers":171036,"tried":false},{"answers":171037,"tried":false},{"answers":171038,"tried":false}],"foundCorrectAnswer":true},"43192":{"id":43192,"choices":[{"id":171039,"label":"`[0, 1, 2]`"},{"id":171040,"label":"`0`"},{"id":171041,"label":"`[0, 1, 2, 3]`"},{"id":171042,"label":"`true`"}],"type":"single_choice","correctAnswer":171040,"questionCombinations":[{"answers":171039,"tried":true},{"answers":171040,"tried":true},{"answers":171041,"tried":false},{"answers":171042,"tried":false}],"foundCorrectAnswer":true},"43193":{"id":43193,"choices":[{"id":171043,"label":"`sort_by { |x| -x }`"},{"id":171044,"label":"`sort_reverse`"},{"id":171045,"label":"`sort.reverse`"},{"id":171046,"label":"`reverse.sort`"}],"type":"multi_choice","correctAnswer":[171043,171045],"questionCombinations":[{"answers":[171043,171044],"tried":true},{"answers":[171043,171045],"tried":true},{"answers":[171043,171046],"tried":false},{"answers":[171044,171045],"tried":false},{"answers":[171044,171046],"tried":false},{"answers":[171045,171046],"tried":false},{"answers":[171043,171044,171045],"tried":false},{"answers":[171043,171044,171046],"tried":false},{"answers":[171043,171045,171046],"tried":false},{"answers":[171044,171045,171046],"tried":false},{"answers":[171043,171044,171045,171046],"tried":false}],"foundCorrectAnswer":true},"43194":{"id":43194,"choices":[{"id":171047,"label":"hello"},{"id":171048,"label":"rubyworld"},{"id":171049,"label":"hellor"},{"id":171050,"label":"rubyw"},{"id":171051,"label":"orubyworld"}],"type":"single_choice","correctAnswer":171048,"questionCombinations":[{"answers":171047,"tried":true},{"answers":171048,"tried":true},{"answers":171049,"tried":false},{"answers":171050,"tried":false},{"answers":171051,"tried":false}],"foundCorrectAnswer":true},"43195":{"id":43195,"choices":[{"id":171052,"label":"`sort { |i,j| -i <= -j }`"},{"id":171053,"label":"`sort { |i,j| -i <=> -j }`"},{"id":171054,"label":"`sort { |i,j| i >= j }`"},{"id":171055,"label":"`sort{ |i,j| i <=> j }`"}],"type":"single_choice","correctAnswer":171053,"questionCombinations":[{"answers":171052,"tried":true},{"answers":171053,"tried":true},{"answers":171054,"tried":false},{"answers":171055,"tried":false}],"foundCorrectAnswer":true},"43196":{"id":43196,"choices":[{"id":171056,"label":"a"},{"id":171057,"label":"b"},{"id":171058,"label":"c"},{"id":171059,"label":"d"},{"id":171060,"label":"e"}],"type":"multi_choice","correctAnswer":[171057,171060],"questionCombinations":[{"answers":[171056,171057],"tried":true},{"answers":[171056,171058],"tried":true},{"answers":[171056,171059],"tried":true},{"answers":[171056,171060],"tried":true},{"answers":[171057,171058],"tried":true},{"answers":[171057,171059],"tried":true},{"answers":[171057,171060],"tried":true},{"answers":[171058,171059],"tried":false},{"answers":[171058,171060],"tried":false},{"answers":[171059,171060],"tried":false},{"answers":[171056,171057,171058],"tried":false},{"answers":[171056,171057,171059],"tried":false},{"answers":[171056,171057,171060],"tried":false},{"answers":[171056,171058,171059],"tried":false},{"answers":[171056,171058,171060],"tried":false},{"answers":[171056,171059,171060],"tried":false},{"answers":[171057,171058,171059],"tried":false},{"answers":[171057,171058,171060],"tried":false},{"answers":[171057,171059,171060],"tried":false},{"answers":[171058,171059,171060],"tried":false},{"answers":[171056,171057,171058,171059],"tried":false},{"answers":[171056,171057,171058,171060],"tried":false},{"answers":[171056,171057,171059,171060],"tried":false},{"answers":[171056,171058,171059,171060],"tried":false},{"answers":[171057,171058,171059,171060],"tried":false},{"answers":[171056,171057,171058,171059,171060],"tried":false}],"foundCorrectAnswer":true}}
+{
+  "36769": {
+    "id": 36769,
+    "choices": [
+      {
+        "id": 146775,
+        "label": "`[\"three\", \"four\"]`"
+      },
+      {
+        "id": 146776,
+        "label": "`[nil, \"three\", \"four\"]`"
+      },
+      {
+        "id": 146777,
+        "label": "`[\"one\", \"two\", \"three\"]`"
+      },
+      {
+        "id": 146778,
+        "label": "`[\"one\", \"two\", \"three\", \"four\"]`"
+      }
+    ],
+    "type": "single_choice",
+    "correctAnswer": 146775,
+    "questionCombinations": [
+      {
+        "answers": 146775,
+        "tried": true
+      },
+      {
+        "answers": 146776,
+        "tried": false
+      },
+      {
+        "answers": 146777,
+        "tried": false
+      },
+      {
+        "answers": 146778,
+        "tried": false
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "36771": {
+    "id": 36771,
+    "choices": [
+      {
+        "id": 146783,
+        "label": "`{:a=>100, :b=>200}`"
+      },
+      {
+        "id": 146784,
+        "label": "`{:a=>nil, :b=>200}`"
+      },
+      {
+        "id": 146785,
+        "label": "`{:b=>200}`"
+      },
+      {
+        "id": 146786,
+        "label": "An Error occurs"
+      }
+    ],
+    "type": "single_choice",
+    "correctAnswer": 146785,
+    "questionCombinations": [
+      {
+        "answers": 146783,
+        "tried": true
+      },
+      {
+        "answers": 146784,
+        "tried": true
+      },
+      {
+        "answers": 146785,
+        "tried": true
+      },
+      {
+        "answers": 146786,
+        "tried": false
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "36772": {
+    "id": 36772,
+    "choices": [
+      {
+        "id": 146787,
+        "label": "`truetruetruetrue`"
+      },
+      {
+        "id": 146788,
+        "label": "`falsefalsefalsefalse`"
+      },
+      {
+        "id": 146789,
+        "label": "`truefalsefalsefalse`"
+      },
+      {
+        "id": 146790,
+        "label": "`truefalsefalsetrue`"
+      }
+    ],
+    "type": "single_choice",
+    "correctAnswer": 146790,
+    "questionCombinations": [
+      {
+        "answers": 146787,
+        "tried": true
+      },
+      {
+        "answers": 146788,
+        "tried": true
+      },
+      {
+        "answers": 146789,
+        "tried": true
+      },
+      {
+        "answers": 146790,
+        "tried": true
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "36773": {
+    "id": 36773,
+    "choices": [
+      {
+        "id": 146791,
+        "label": "`[1, 2, 3, 5, 6, 7, 8]`"
+      },
+      {
+        "id": 146792,
+        "label": "`[1, 3, 8]`"
+      },
+      {
+        "id": 146793,
+        "label": "`[1, 2, 3, 5, 8]`"
+      },
+      {
+        "id": 146794,
+        "label": "`[1, 3, 6, 7, 8]`"
+      }
+    ],
+    "type": "single_choice",
+    "correctAnswer": 146792,
+    "questionCombinations": [
+      {
+        "answers": 146791,
+        "tried": true
+      },
+      {
+        "answers": 146792,
+        "tried": true
+      },
+      {
+        "answers": 146793,
+        "tried": false
+      },
+      {
+        "answers": 146794,
+        "tried": false
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "36774": {
+    "id": 36774,
+    "choices": [
+      {
+        "id": 146795,
+        "label": "` tEacher`"
+      },
+      {
+        "id": 146796,
+        "label": "`tEacher`"
+      },
+      {
+        "id": 146797,
+        "label": "`tE`"
+      },
+      {
+        "id": 146798,
+        "label": "` tE`"
+      }
+    ],
+    "type": "single_choice",
+    "correctAnswer": 146796,
+    "questionCombinations": [
+      {
+        "answers": 146795,
+        "tried": true
+      },
+      {
+        "answers": 146796,
+        "tried": true
+      },
+      {
+        "answers": 146797,
+        "tried": false
+      },
+      {
+        "answers": 146798,
+        "tried": false
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "42976": {
+    "id": 42976,
+    "choices": [
+      {
+        "id": 170249,
+        "label": "An exception is raised"
+      },
+      {
+        "id": 170250,
+        "label": "`[1, 10]`"
+      },
+      {
+        "id": 170251,
+        "label": "`[1, nil, nil, nil, nil, 10]`"
+      },
+      {
+        "id": 170252,
+        "label": "`[1, 10, 10, 10, 10, 10]`"
+      }
+    ],
+    "type": "single_choice",
+    "correctAnswer": 170250,
+    "questionCombinations": [
+      {
+        "answers": 170249,
+        "tried": true
+      },
+      {
+        "answers": 170250,
+        "tried": true
+      },
+      {
+        "answers": 170251,
+        "tried": false
+      },
+      {
+        "answers": 170252,
+        "tried": false
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "42977": {
+    "id": 42977,
+    "choices": [
+      {
+        "id": 170253,
+        "label": "`[[:a, 100], [:b, 200]]`"
+      },
+      {
+        "id": 170254,
+        "label": "`[[:a, 200], [:b, 100]]`"
+      },
+      {
+        "id": 170255,
+        "label": "`[[100, :a], [200, :b]]`"
+      },
+      {
+        "id": 170256,
+        "label": "`[[100, :b], [200, :a]]`"
+      }
+    ],
+    "type": "single_choice",
+    "correctAnswer": 170253,
+    "questionCombinations": [
+      {
+        "answers": 170253,
+        "tried": true
+      },
+      {
+        "answers": 170254,
+        "tried": false
+      },
+      {
+        "answers": 170255,
+        "tried": false
+      },
+      {
+        "answers": 170256,
+        "tried": false
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "42979": {
+    "id": 42979,
+    "choices": [
+      {
+        "id": 170261,
+        "label": "`3/3`"
+      },
+      {
+        "id": 170262,
+        "label": "`NoMethodError`"
+      },
+      {
+        "id": 170263,
+        "label": "`1/2`"
+      },
+      {
+        "id": 170264,
+        "label": "`1/3`"
+      }
+    ],
+    "type": "single_choice",
+    "correctAnswer": 170263,
+    "questionCombinations": [
+      {
+        "answers": 170261,
+        "tried": true
+      },
+      {
+        "answers": 170262,
+        "tried": true
+      },
+      {
+        "answers": 170263,
+        "tried": true
+      },
+      {
+        "answers": 170264,
+        "tried": false
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "42980": {
+    "id": 42980,
+    "choices": [
+      {
+        "id": 170265,
+        "label": "`[]`"
+      },
+      {
+        "id": 170266,
+        "label": "`[1, 3, 8]`"
+      },
+      {
+        "id": 170267,
+        "label": "`[1, 2, 3, 5, 6, 7, 8]`"
+      },
+      {
+        "id": 170268,
+        "label": "`[1, 2, 3, 5, 8]`"
+      }
+    ],
+    "type": "single_choice",
+    "correctAnswer": 170266,
+    "questionCombinations": [
+      {
+        "answers": 170265,
+        "tried": true
+      },
+      {
+        "answers": 170266,
+        "tried": true
+      },
+      {
+        "answers": 170267,
+        "tried": false
+      },
+      {
+        "answers": 170268,
+        "tried": false
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "42981": {
+    "id": 42981,
+    "choices": [
+      {
+        "id": 170269,
+        "label": "`3/3`"
+      },
+      {
+        "id": 170270,
+        "label": "`NoMethodError`"
+      },
+      {
+        "id": 170271,
+        "label": "`1/2`"
+      },
+      {
+        "id": 170272,
+        "label": "`1/3`"
+      }
+    ],
+    "type": "single_choice",
+    "correctAnswer": 170269,
+    "questionCombinations": [
+      {
+        "answers": 170269,
+        "tried": true
+      },
+      {
+        "answers": 170270,
+        "tried": false
+      },
+      {
+        "answers": 170271,
+        "tried": false
+      },
+      {
+        "answers": 170272,
+        "tried": false
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "42982": {
+    "id": 42982,
+    "choices": [
+      {
+        "id": 170273,
+        "label": "`nil`"
+      },
+      {
+        "id": 170274,
+        "label": "`REx`"
+      },
+      {
+        "id": 170275,
+        "label": "`NoMethodError`"
+      },
+      {
+        "id": 170276,
+        "label": "`NameError`"
+      }
+    ],
+    "type": "single_choice",
+    "correctAnswer": 170274,
+    "questionCombinations": [
+      {
+        "answers": 170273,
+        "tried": true
+      },
+      {
+        "answers": 170274,
+        "tried": true
+      },
+      {
+        "answers": 170275,
+        "tried": false
+      },
+      {
+        "answers": 170276,
+        "tried": false
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "42983": {
+    "id": 42983,
+    "choices": [
+      {
+        "id": 170277,
+        "label": "`StandardError`"
+      },
+      {
+        "id": 170278,
+        "label": "`RuntimeError`"
+      },
+      {
+        "id": 170279,
+        "label": "`Exception`"
+      },
+      {
+        "id": 170280,
+        "label": "`nil`"
+      }
+    ],
+    "type": "single_choice",
+    "correctAnswer": 170278,
+    "questionCombinations": [
+      {
+        "answers": 170277,
+        "tried": true
+      },
+      {
+        "answers": 170278,
+        "tried": true
+      },
+      {
+        "answers": 170279,
+        "tried": false
+      },
+      {
+        "answers": 170280,
+        "tried": false
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "42984": {
+    "id": 42984,
+    "choices": [
+      {
+        "id": 170281,
+        "label": "`StandardError`"
+      },
+      {
+        "id": 170282,
+        "label": "`RuntimeError`"
+      },
+      {
+        "id": 170283,
+        "label": "`Exception`"
+      },
+      {
+        "id": 170284,
+        "label": "`ArgumentError`"
+      }
+    ],
+    "type": "single_choice",
+    "correctAnswer": 170284,
+    "questionCombinations": [
+      {
+        "answers": 170281,
+        "tried": true
+      },
+      {
+        "answers": 170282,
+        "tried": true
+      },
+      {
+        "answers": 170283,
+        "tried": true
+      },
+      {
+        "answers": 170284,
+        "tried": true
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "42985": {
+    "id": 42985,
+    "choices": [
+      {
+        "id": 170285,
+        "label": "`\"HelloHelloHelloHelloHello\"`"
+      },
+      {
+        "id": 170286,
+        "label": "`\"Hello\"`"
+      },
+      {
+        "id": 170287,
+        "label": "`\"Hello5\"`"
+      },
+      {
+        "id": 170288,
+        "label": "An error occurs"
+      }
+    ],
+    "type": "single_choice",
+    "correctAnswer": 170287,
+    "questionCombinations": [
+      {
+        "answers": 170285,
+        "tried": true
+      },
+      {
+        "answers": 170286,
+        "tried": true
+      },
+      {
+        "answers": 170287,
+        "tried": true
+      },
+      {
+        "answers": 170288,
+        "tried": false
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "42986": {
+    "id": 42986,
+    "choices": [
+      {
+        "id": 170289,
+        "label": "`/\\A[Ff]un\\z/`"
+      },
+      {
+        "id": 170290,
+        "label": "`/\\AFun|fun\\z/`"
+      },
+      {
+        "id": 170291,
+        "label": "`/\\A[Ff][u][n]\\z/`"
+      },
+      {
+        "id": 170292,
+        "label": "`/\\AR|ruby\\z/`"
+      }
+    ],
+    "type": "multi_choice",
+    "correctAnswer": [
+      170289,
+      170291
+    ],
+    "questionCombinations": [
+      {
+        "answers": [
+          170289,
+          170290
+        ],
+        "tried": true
+      },
+      {
+        "answers": [
+          170289,
+          170291
+        ],
+        "tried": true
+      },
+      {
+        "answers": [
+          170289,
+          170292
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170290,
+          170291
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170290,
+          170292
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170291,
+          170292
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170289,
+          170290,
+          170291
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170289,
+          170290,
+          170292
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170289,
+          170291,
+          170292
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170290,
+          170291,
+          170292
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170289,
+          170290,
+          170291,
+          170292
+        ],
+        "tried": false
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "42987": {
+    "id": 42987,
+    "choices": [
+      {
+        "id": 170293,
+        "label": "`capital ={:Sweden =>\"Stockholm\", :Norway=>\"Oslo\", :Finland=>\"Helsinki\"}`"
+      },
+      {
+        "id": 170294,
+        "label": "`capital = {Sweden: \"Stockholm\", Norway: \"Oslo\", Finland: \"Helsinki\"}`"
+      },
+      {
+        "id": 170295,
+        "label": "`capital = {\"Sweden\" = \"Stockholm\", \"Norway\" = \"Oslo\", \"Finland\" = \"Helsinki\"}`"
+      },
+      {
+        "id": 170296,
+        "label": "`capital = Hash[:Sweden,  \"Stockholm\", :Norway ,\"Oslo\", :Finland, \"Helsinki\"]`"
+      }
+    ],
+    "type": "single_choice",
+    "correctAnswer": 170295,
+    "questionCombinations": [
+      {
+        "answers": 170293,
+        "tried": true
+      },
+      {
+        "answers": 170294,
+        "tried": true
+      },
+      {
+        "answers": 170295,
+        "tried": true
+      },
+      {
+        "answers": 170296,
+        "tried": false
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "42988": {
+    "id": 42988,
+    "choices": [
+      {
+        "id": 170297,
+        "label": "`Hello`"
+      },
+      {
+        "id": 170298,
+        "label": "`nil`"
+      },
+      {
+        "id": 170299,
+        "label": "Nothing appears"
+      },
+      {
+        "id": 170300,
+        "label": "`false`"
+      }
+    ],
+    "type": "single_choice",
+    "correctAnswer": 170297,
+    "questionCombinations": [
+      {
+        "answers": 170297,
+        "tried": true
+      },
+      {
+        "answers": 170298,
+        "tried": false
+      },
+      {
+        "answers": 170299,
+        "tried": false
+      },
+      {
+        "answers": 170300,
+        "tried": false
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "42989": {
+    "id": 42989,
+    "choices": [
+      {
+        "id": 170301,
+        "label": "`nil`"
+      },
+      {
+        "id": 170302,
+        "label": "`10`"
+      },
+      {
+        "id": 170303,
+        "label": "`5`"
+      },
+      {
+        "id": 170304,
+        "label": "`20`"
+      },
+      {
+        "id": 170305,
+        "label": "`[5,10,15]`"
+      }
+    ],
+    "type": "single_choice",
+    "correctAnswer": 170303,
+    "questionCombinations": [
+      {
+        "answers": 170301,
+        "tried": true
+      },
+      {
+        "answers": 170302,
+        "tried": true
+      },
+      {
+        "answers": 170303,
+        "tried": true
+      },
+      {
+        "answers": 170304,
+        "tried": false
+      },
+      {
+        "answers": 170305,
+        "tried": false
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "42990": {
+    "id": 42990,
+    "choices": [
+      {
+        "id": 170306,
+        "label": "`89`"
+      },
+      {
+        "id": 170307,
+        "label": "`40`"
+      },
+      {
+        "id": 170308,
+        "label": "`10`"
+      },
+      {
+        "id": 170309,
+        "label": "`59`"
+      }
+    ],
+    "type": "single_choice",
+    "correctAnswer": 170306,
+    "questionCombinations": [
+      {
+        "answers": 170306,
+        "tried": true
+      },
+      {
+        "answers": 170307,
+        "tried": false
+      },
+      {
+        "answers": 170308,
+        "tried": false
+      },
+      {
+        "answers": 170309,
+        "tried": false
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "42991": {
+    "id": 42991,
+    "choices": [
+      {
+        "id": 170310,
+        "label": "```\ntrue\ntrue\n```"
+      },
+      {
+        "id": 170311,
+        "label": "```\ntrue\nfalse\n```"
+      },
+      {
+        "id": 170312,
+        "label": "```\nfalse\ntrue\n```"
+      },
+      {
+        "id": 170313,
+        "label": "```\nfalse\nfalse\n```"
+      }
+    ],
+    "type": "single_choice",
+    "correctAnswer": 170311,
+    "questionCombinations": [
+      {
+        "answers": 170310,
+        "tried": true
+      },
+      {
+        "answers": 170311,
+        "tried": true
+      },
+      {
+        "answers": 170312,
+        "tried": false
+      },
+      {
+        "answers": 170313,
+        "tried": false
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "42992": {
+    "id": 42992,
+    "choices": [
+      {
+        "id": 170314,
+        "label": "`[\"a\", \"b,c,d\"]`"
+      },
+      {
+        "id": 170315,
+        "label": "`[\"a\",\"b\",\"c\",\"d\"]`"
+      },
+      {
+        "id": 170316,
+        "label": "`\"a\", \"b,c,\",\"d\"]`"
+      },
+      {
+        "id": 170317,
+        "label": "`\"abcd\"`"
+      }
+    ],
+    "type": "single_choice",
+    "correctAnswer": 170314,
+    "questionCombinations": [
+      {
+        "answers": 170314,
+        "tried": true
+      },
+      {
+        "answers": 170315,
+        "tried": false
+      },
+      {
+        "answers": 170316,
+        "tried": false
+      },
+      {
+        "answers": 170317,
+        "tried": false
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "42993": {
+    "id": 42993,
+    "choices": [
+      {
+        "id": 170318,
+        "label": "`Hello`"
+      },
+      {
+        "id": 170319,
+        "label": "`holland`"
+      },
+      {
+        "id": 170320,
+        "label": "`Cello`"
+      },
+      {
+        "id": 170321,
+        "label": "`h35L320`"
+      }
+    ],
+    "type": "multi_choice",
+    "correctAnswer": [
+      170318,
+      170320
+    ],
+    "questionCombinations": [
+      {
+        "answers": [
+          170318,
+          170319
+        ],
+        "tried": true
+      },
+      {
+        "answers": [
+          170318,
+          170320
+        ],
+        "tried": true
+      },
+      {
+        "answers": [
+          170318,
+          170321
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170319,
+          170320
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170319,
+          170321
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170320,
+          170321
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170318,
+          170319,
+          170320
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170318,
+          170319,
+          170321
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170318,
+          170320,
+          170321
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170319,
+          170320,
+          170321
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170318,
+          170319,
+          170320,
+          170321
+        ],
+        "tried": false
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "42994": {
+    "id": 42994,
+    "choices": [
+      {
+        "id": 170322,
+        "label": "`true`"
+      },
+      {
+        "id": 170323,
+        "label": "`[\"c\", \"c\", \"c\"]`"
+      },
+      {
+        "id": 170324,
+        "label": "`5`"
+      },
+      {
+        "id": 170325,
+        "label": "`NoMethodError`"
+      }
+    ],
+    "type": "single_choice",
+    "correctAnswer": 170323,
+    "questionCombinations": [
+      {
+        "answers": 170322,
+        "tried": true
+      },
+      {
+        "answers": 170323,
+        "tried": true
+      },
+      {
+        "answers": 170324,
+        "tried": false
+      },
+      {
+        "answers": 170325,
+        "tried": false
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "42995": {
+    "id": 42995,
+    "choices": [
+      {
+        "id": 170326,
+        "label": "`\"RubyAssociation\\r\"`"
+      },
+      {
+        "id": 170327,
+        "label": "`\"RubyAssociation\"`"
+      },
+      {
+        "id": 170328,
+        "label": "`\"RubyAssociation\\r\\n\"`"
+      },
+      {
+        "id": 170329,
+        "label": "`\"RubyAssociation\\r\\n\\r\\n\"`"
+      }
+    ],
+    "type": "single_choice",
+    "correctAnswer": 170327,
+    "questionCombinations": [
+      {
+        "answers": 170326,
+        "tried": true
+      },
+      {
+        "answers": 170327,
+        "tried": true
+      },
+      {
+        "answers": 170328,
+        "tried": false
+      },
+      {
+        "answers": 170329,
+        "tried": false
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "42997": {
+    "id": 42997,
+    "choices": [
+      {
+        "id": 170334,
+        "label": "An error occurs"
+      },
+      {
+        "id": 170335,
+        "label": "`[1, 10]`"
+      },
+      {
+        "id": 170336,
+        "label": "`[1, nil, nil, nil, nil, 10]`"
+      },
+      {
+        "id": 170337,
+        "label": "`[1, 10, 10, 10, 10, 10]`"
+      }
+    ],
+    "type": "single_choice",
+    "correctAnswer": 170336,
+    "questionCombinations": [
+      {
+        "answers": 170334,
+        "tried": true
+      },
+      {
+        "answers": 170335,
+        "tried": true
+      },
+      {
+        "answers": 170336,
+        "tried": true
+      },
+      {
+        "answers": 170337,
+        "tried": false
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "42998": {
+    "id": 42998,
+    "choices": [
+      {
+        "id": 170338,
+        "label": "`\"Liberty Fish \\r\\n\"`"
+      },
+      {
+        "id": 170339,
+        "label": "`\"Liberty Fish \"`"
+      },
+      {
+        "id": 170340,
+        "label": "`\"Liberty Fish\"`"
+      },
+      {
+        "id": 170341,
+        "label": "`\"Liberty Fish \\r\"`"
+      }
+    ],
+    "type": "single_choice",
+    "correctAnswer": 170338,
+    "questionCombinations": [
+      {
+        "answers": 170338,
+        "tried": true
+      },
+      {
+        "answers": 170339,
+        "tried": false
+      },
+      {
+        "answers": 170340,
+        "tried": false
+      },
+      {
+        "answers": 170341,
+        "tried": false
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "42999": {
+    "id": 42999,
+    "choices": [
+      {
+        "id": 170342,
+        "label": "`8`"
+      },
+      {
+        "id": 170343,
+        "label": "An error occurs"
+      },
+      {
+        "id": 170344,
+        "label": "`4`"
+      },
+      {
+        "id": 170345,
+        "label": "`nil`"
+      }
+    ],
+    "type": "single_choice",
+    "correctAnswer": 170343,
+    "questionCombinations": [
+      {
+        "answers": 170342,
+        "tried": true
+      },
+      {
+        "answers": 170343,
+        "tried": true
+      },
+      {
+        "answers": 170344,
+        "tried": false
+      },
+      {
+        "answers": 170345,
+        "tried": false
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "43000": {
+    "id": 43000,
+    "choices": [
+      {
+        "id": 170346,
+        "label": "`[\"apple\", \"banana\", \"orange\"].flatten!`"
+      },
+      {
+        "id": 170347,
+        "label": "`[[\"apple\"],[\"banana\"],[\"orange\"]].flatten`"
+      },
+      {
+        "id": 170348,
+        "label": "`[\"apple\", \"banana\", \"orange\"].reverse`"
+      },
+      {
+        "id": 170349,
+        "label": "`%|apple banana orange|`"
+      }
+    ],
+    "type": "single_choice",
+    "correctAnswer": 170348,
+    "questionCombinations": [
+      {
+        "answers": 170346,
+        "tried": true
+      },
+      {
+        "answers": 170347,
+        "tried": true
+      },
+      {
+        "answers": 170348,
+        "tried": true
+      },
+      {
+        "answers": 170349,
+        "tried": false
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "43001": {
+    "id": 43001,
+    "choices": [
+      {
+        "id": 170350,
+        "label": "`\"Hello,Ruby\"`"
+      },
+      {
+        "id": 170351,
+        "label": "`\"Hello,\\nRuby\\nEOF\"`"
+      },
+      {
+        "id": 170352,
+        "label": "`\"Hello,\\nRuby\\n\"`"
+      },
+      {
+        "id": 170353,
+        "label": "An error occurs"
+      }
+    ],
+    "type": "single_choice",
+    "correctAnswer": 170352,
+    "questionCombinations": [
+      {
+        "answers": 170350,
+        "tried": true
+      },
+      {
+        "answers": 170351,
+        "tried": true
+      },
+      {
+        "answers": 170352,
+        "tried": true
+      },
+      {
+        "answers": 170353,
+        "tried": false
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "43002": {
+    "id": 43002,
+    "choices": [
+      {
+        "id": 170354,
+        "label": "```ruby\nstr = \"abcdefgh\"\nputs str[-3..6]\n```"
+      },
+      {
+        "id": 170355,
+        "label": "```ruby\nstr = \"abcdefgh\"\nputs str[4...-1]\n```"
+      },
+      {
+        "id": 170356,
+        "label": "```ruby\nstr = \"abcdefgh\"\nputs str[4..0]\n```"
+      },
+      {
+        "id": 170357,
+        "label": "```ruby\nstr = \"abcdefgh\"\nputs str[-4...7]\n```"
+      }
+    ],
+    "type": "single_choice",
+    "correctAnswer": 170355,
+    "questionCombinations": [
+      {
+        "answers": 170354,
+        "tried": true
+      },
+      {
+        "answers": 170355,
+        "tried": true
+      },
+      {
+        "answers": 170356,
+        "tried": false
+      },
+      {
+        "answers": 170357,
+        "tried": false
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "43003": {
+    "id": 43003,
+    "choices": [
+      {
+        "id": 170358,
+        "label": "An exception is raised"
+      },
+      {
+        "id": 170359,
+        "label": "`\"I love @pple, b@n@n@ @nd grape\"`"
+      },
+      {
+        "id": 170360,
+        "label": "`\"I love @pple, b@n@n@ @nd gr@pe\"`"
+      },
+      {
+        "id": 170361,
+        "label": "`\"I love apple, banana and grape\"`"
+      }
+    ],
+    "type": "single_choice",
+    "correctAnswer": 170359,
+    "questionCombinations": [
+      {
+        "answers": 170358,
+        "tried": true
+      },
+      {
+        "answers": 170359,
+        "tried": true
+      },
+      {
+        "answers": 170360,
+        "tried": false
+      },
+      {
+        "answers": 170361,
+        "tried": false
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "43004": {
+    "id": 43004,
+    "choices": [
+      {
+        "id": 170362,
+        "label": "`[1]`"
+      },
+      {
+        "id": 170363,
+        "label": "`[2]`"
+      },
+      {
+        "id": 170364,
+        "label": "`[3]`"
+      },
+      {
+        "id": 170365,
+        "label": "`[4]`"
+      }
+    ],
+    "type": "single_choice",
+    "correctAnswer": 170364,
+    "questionCombinations": [
+      {
+        "answers": 170362,
+        "tried": true
+      },
+      {
+        "answers": 170363,
+        "tried": true
+      },
+      {
+        "answers": 170364,
+        "tried": true
+      },
+      {
+        "answers": 170365,
+        "tried": false
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "43005": {
+    "id": 43005,
+    "choices": [
+      {
+        "id": 170366,
+        "label": "`Array`"
+      },
+      {
+        "id": 170367,
+        "label": "`Hash`"
+      },
+      {
+        "id": 170368,
+        "label": "`Symbol`"
+      },
+      {
+        "id": 170369,
+        "label": "`Fixnum`"
+      }
+    ],
+    "type": "single_choice",
+    "correctAnswer": 170366,
+    "questionCombinations": [
+      {
+        "answers": 170366,
+        "tried": true
+      },
+      {
+        "answers": 170367,
+        "tried": false
+      },
+      {
+        "answers": 170368,
+        "tried": false
+      },
+      {
+        "answers": 170369,
+        "tried": false
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "43006": {
+    "id": 43006,
+    "choices": [
+      {
+        "id": 170370,
+        "label": "`5`"
+      },
+      {
+        "id": 170371,
+        "label": "`4`"
+      },
+      {
+        "id": 170372,
+        "label": "`3`"
+      },
+      {
+        "id": 170373,
+        "label": "`9`"
+      }
+    ],
+    "type": "single_choice",
+    "correctAnswer": 170371,
+    "questionCombinations": [
+      {
+        "answers": 170370,
+        "tried": true
+      },
+      {
+        "answers": 170371,
+        "tried": true
+      },
+      {
+        "answers": 170372,
+        "tried": false
+      },
+      {
+        "answers": 170373,
+        "tried": false
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "43007": {
+    "id": 43007,
+    "choices": [
+      {
+        "id": 170374,
+        "label": "`[[1, 3], [2, 4]]`"
+      },
+      {
+        "id": 170375,
+        "label": "`[1, 2]`"
+      },
+      {
+        "id": 170376,
+        "label": "`[[1, 1, 2, 2], [3, 4, 3, 4]]`"
+      },
+      {
+        "id": 170377,
+        "label": "`[[1, 3], [1, 4], [2, 3], [2, 4]]`"
+      }
+    ],
+    "type": "single_choice",
+    "correctAnswer": 170377,
+    "questionCombinations": [
+      {
+        "answers": 170374,
+        "tried": true
+      },
+      {
+        "answers": 170375,
+        "tried": true
+      },
+      {
+        "answers": 170376,
+        "tried": true
+      },
+      {
+        "answers": 170377,
+        "tried": true
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "43008": {
+    "id": 43008,
+    "choices": [
+      {
+        "id": 170378,
+        "label": "`[[1, 3], [2, 4]]`"
+      },
+      {
+        "id": 170379,
+        "label": "`[1, 2]`"
+      },
+      {
+        "id": 170380,
+        "label": "`[[1, 1, 2, 2], [3, 4, 3, 4]]`"
+      },
+      {
+        "id": 170381,
+        "label": "`[[1, 3], [1, 4], [2, 3], [2, 4]]`"
+      }
+    ],
+    "type": "single_choice",
+    "correctAnswer": 170380,
+    "questionCombinations": [
+      {
+        "answers": 170378,
+        "tried": true
+      },
+      {
+        "answers": 170379,
+        "tried": true
+      },
+      {
+        "answers": 170380,
+        "tried": true
+      },
+      {
+        "answers": 170381,
+        "tried": false
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "43009": {
+    "id": 43009,
+    "choices": [
+      {
+        "id": 170382,
+        "label": "`'10'.oct`"
+      },
+      {
+        "id": 170383,
+        "label": "`080`"
+      },
+      {
+        "id": 170384,
+        "label": "`\"110\"`"
+      },
+      {
+        "id": 170385,
+        "label": "`\"110\".to_i(2)`"
+      }
+    ],
+    "type": "single_choice",
+    "correctAnswer": 170383,
+    "questionCombinations": [
+      {
+        "answers": 170382,
+        "tried": true
+      },
+      {
+        "answers": 170383,
+        "tried": true
+      },
+      {
+        "answers": 170384,
+        "tried": false
+      },
+      {
+        "answers": 170385,
+        "tried": false
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "43010": {
+    "id": 43010,
+    "choices": [
+      {
+        "id": 170386,
+        "label": "`0xG9`"
+      },
+      {
+        "id": 170387,
+        "label": "`\"0x10\".hex`"
+      },
+      {
+        "id": 170388,
+        "label": "`\"010\".oct`"
+      },
+      {
+        "id": 170389,
+        "label": "`\"10G\".to_i`"
+      }
+    ],
+    "type": "single_choice",
+    "correctAnswer": 170386,
+    "questionCombinations": [
+      {
+        "answers": 170386,
+        "tried": true
+      },
+      {
+        "answers": 170387,
+        "tried": false
+      },
+      {
+        "answers": 170388,
+        "tried": false
+      },
+      {
+        "answers": 170389,
+        "tried": false
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "43011": {
+    "id": 43011,
+    "choices": [
+      {
+        "id": 170390,
+        "label": "`[\"1\", \"2\", \"3\", \"4\"]`"
+      },
+      {
+        "id": 170391,
+        "label": "`[\"4\", \"3\", \"2\", \"1\"]`"
+      },
+      {
+        "id": 170392,
+        "label": "`[\"1;2:3;4\"]`"
+      },
+      {
+        "id": 170393,
+        "label": "An error occurs"
+      }
+    ],
+    "type": "single_choice",
+    "correctAnswer": 170390,
+    "questionCombinations": [
+      {
+        "answers": 170390,
+        "tried": true
+      },
+      {
+        "answers": 170391,
+        "tried": false
+      },
+      {
+        "answers": 170392,
+        "tried": false
+      },
+      {
+        "answers": 170393,
+        "tried": false
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "43012": {
+    "id": 43012,
+    "choices": [
+      {
+        "id": 170394,
+        "label": "`24`"
+      },
+      {
+        "id": 170395,
+        "label": "`5`"
+      },
+      {
+        "id": 170396,
+        "label": "`7`"
+      },
+      {
+        "id": 170397,
+        "label": "`0`"
+      }
+    ],
+    "type": "single_choice",
+    "correctAnswer": 170395,
+    "questionCombinations": [
+      {
+        "answers": 170394,
+        "tried": true
+      },
+      {
+        "answers": 170395,
+        "tried": true
+      },
+      {
+        "answers": 170396,
+        "tried": false
+      },
+      {
+        "answers": 170397,
+        "tried": false
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "43013": {
+    "id": 43013,
+    "choices": [
+      {
+        "id": 170398,
+        "label": "```\n{a: 100, b: 200}\n{a: 100, b: 200}\n```"
+      },
+      {
+        "id": 170399,
+        "label": "```\n[100, :a]\n[200, :b]\n```"
+      },
+      {
+        "id": 170400,
+        "label": "```\n{a: 100}\n{b: 200}\n```"
+      },
+      {
+        "id": 170401,
+        "label": "```\n[:a, 100]\n[:b, 200]\n```"
+      }
+    ],
+    "type": "single_choice",
+    "correctAnswer": 170401,
+    "questionCombinations": [
+      {
+        "answers": 170398,
+        "tried": true
+      },
+      {
+        "answers": 170399,
+        "tried": true
+      },
+      {
+        "answers": 170400,
+        "tried": true
+      },
+      {
+        "answers": 170401,
+        "tried": true
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "43014": {
+    "id": 43014,
+    "choices": [
+      {
+        "id": 170402,
+        "label": "`truetruetruetrue`"
+      },
+      {
+        "id": 170403,
+        "label": "`falsefalsefalsefalse`"
+      },
+      {
+        "id": 170404,
+        "label": "`truefalsefalsefalse`"
+      },
+      {
+        "id": 170405,
+        "label": "`truefalsefalsetrue`"
+      }
+    ],
+    "type": "single_choice",
+    "correctAnswer": 170405,
+    "questionCombinations": [
+      {
+        "answers": 170402,
+        "tried": true
+      },
+      {
+        "answers": 170403,
+        "tried": true
+      },
+      {
+        "answers": 170404,
+        "tried": true
+      },
+      {
+        "answers": 170405,
+        "tried": true
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "43015": {
+    "id": 43015,
+    "choices": [
+      {
+        "id": 170406,
+        "label": "`_365`"
+      },
+      {
+        "id": 170407,
+        "label": "`z`"
+      },
+      {
+        "id": 170408,
+        "label": "`7years`"
+      },
+      {
+        "id": 170409,
+        "label": "`break`"
+      },
+      {
+        "id": 170410,
+        "label": "`latitude`"
+      }
+    ],
+    "type": "multi_choice",
+    "correctAnswer": [
+      170406,
+      170407
+    ],
+    "questionCombinations": [
+      {
+        "answers": [
+          170406,
+          170407
+        ],
+        "tried": true
+      },
+      {
+        "answers": [
+          170406,
+          170408
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170406,
+          170409
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170406,
+          170410
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170407,
+          170408
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170407,
+          170409
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170407,
+          170410
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170408,
+          170409
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170408,
+          170410
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170409,
+          170410
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170406,
+          170407,
+          170408
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170406,
+          170407,
+          170409
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170406,
+          170407,
+          170410
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170406,
+          170408,
+          170409
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170406,
+          170408,
+          170410
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170406,
+          170409,
+          170410
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170407,
+          170408,
+          170409
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170407,
+          170408,
+          170410
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170407,
+          170409,
+          170410
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170408,
+          170409,
+          170410
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170406,
+          170407,
+          170408,
+          170409
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170406,
+          170407,
+          170408,
+          170410
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170406,
+          170407,
+          170409,
+          170410
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170406,
+          170408,
+          170409,
+          170410
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170407,
+          170408,
+          170409,
+          170410
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170406,
+          170407,
+          170408,
+          170409,
+          170410
+        ],
+        "tried": false
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "43016": {
+    "id": 43016,
+    "choices": [
+      {
+        "id": 170411,
+        "label": "`0xA`"
+      },
+      {
+        "id": 170412,
+        "label": "`0xFF`"
+      },
+      {
+        "id": 170413,
+        "label": "`012`"
+      },
+      {
+        "id": 170414,
+        "label": "`077`"
+      },
+      {
+        "id": 170415,
+        "label": "`0x10`"
+      }
+    ],
+    "type": "multi_choice",
+    "correctAnswer": [
+      170411,
+      170413
+    ],
+    "questionCombinations": [
+      {
+        "answers": [
+          170411,
+          170412
+        ],
+        "tried": true
+      },
+      {
+        "answers": [
+          170411,
+          170413
+        ],
+        "tried": true
+      },
+      {
+        "answers": [
+          170411,
+          170414
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170411,
+          170415
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170412,
+          170413
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170412,
+          170414
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170412,
+          170415
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170413,
+          170414
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170413,
+          170415
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170414,
+          170415
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170411,
+          170412,
+          170413
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170411,
+          170412,
+          170414
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170411,
+          170412,
+          170415
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170411,
+          170413,
+          170414
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170411,
+          170413,
+          170415
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170411,
+          170414,
+          170415
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170412,
+          170413,
+          170414
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170412,
+          170413,
+          170415
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170412,
+          170414,
+          170415
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170413,
+          170414,
+          170415
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170411,
+          170412,
+          170413,
+          170414
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170411,
+          170412,
+          170413,
+          170415
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170411,
+          170412,
+          170414,
+          170415
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170411,
+          170413,
+          170414,
+          170415
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170412,
+          170413,
+          170414,
+          170415
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170411,
+          170412,
+          170413,
+          170414,
+          170415
+        ],
+        "tried": false
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "43017": {
+    "id": 43017,
+    "choices": [
+      {
+        "id": 170416,
+        "label": "`[100,99,98,97,96,95,94,93,92,91,90]`"
+      },
+      {
+        "id": 170417,
+        "label": "`[90,92,94,96,98,100]`"
+      },
+      {
+        "id": 170418,
+        "label": "`[100,98,96,94,92,90]`"
+      },
+      {
+        "id": 170419,
+        "label": "`[]`"
+      }
+    ],
+    "type": "single_choice",
+    "correctAnswer": 170418,
+    "questionCombinations": [
+      {
+        "answers": 170416,
+        "tried": true
+      },
+      {
+        "answers": 170417,
+        "tried": true
+      },
+      {
+        "answers": 170418,
+        "tried": true
+      },
+      {
+        "answers": 170419,
+        "tried": false
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "43019": {
+    "id": 43019,
+    "choices": [
+      {
+        "id": 170425,
+        "label": "`clear`"
+      },
+      {
+        "id": 170426,
+        "label": "`remove`"
+      },
+      {
+        "id": 170427,
+        "label": "`destroy`"
+      },
+      {
+        "id": 170428,
+        "label": "`empty?`"
+      }
+    ],
+    "type": "single_choice",
+    "correctAnswer": 170425,
+    "questionCombinations": [
+      {
+        "answers": 170425,
+        "tried": true
+      },
+      {
+        "answers": 170426,
+        "tried": false
+      },
+      {
+        "answers": 170427,
+        "tried": false
+      },
+      {
+        "answers": 170428,
+        "tried": false
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "43020": {
+    "id": 43020,
+    "choices": [
+      {
+        "id": 170429,
+        "label": "`[1, 4]`"
+      },
+      {
+        "id": 170430,
+        "label": "`[1, 2, 3, 4]`"
+      },
+      {
+        "id": 170431,
+        "label": "`[1]`"
+      },
+      {
+        "id": 170432,
+        "label": "`[1, 2, 3]`"
+      }
+    ],
+    "type": "single_choice",
+    "correctAnswer": 170429,
+    "questionCombinations": [
+      {
+        "answers": 170429,
+        "tried": true
+      },
+      {
+        "answers": 170430,
+        "tried": false
+      },
+      {
+        "answers": 170431,
+        "tried": false
+      },
+      {
+        "answers": 170432,
+        "tried": false
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "43146": {
+    "id": 43146,
+    "choices": [
+      {
+        "id": 170842,
+        "label": "`\"\"`"
+      },
+      {
+        "id": 170843,
+        "label": "`0`"
+      },
+      {
+        "id": 170844,
+        "label": "`false`"
+      },
+      {
+        "id": 170845,
+        "label": "`nil`"
+      }
+    ],
+    "type": "multi_choice",
+    "correctAnswer": [
+      170842,
+      170843
+    ],
+    "questionCombinations": [
+      {
+        "answers": [
+          170842,
+          170843
+        ],
+        "tried": true
+      },
+      {
+        "answers": [
+          170842,
+          170844
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170842,
+          170845
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170843,
+          170844
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170843,
+          170845
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170844,
+          170845
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170842,
+          170843,
+          170844
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170842,
+          170843,
+          170845
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170842,
+          170844,
+          170845
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170843,
+          170844,
+          170845
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170842,
+          170843,
+          170844,
+          170845
+        ],
+        "tried": false
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "43147": {
+    "id": 43147,
+    "choices": [
+      {
+        "id": 170846,
+        "label": "`each`"
+      },
+      {
+        "id": 170847,
+        "label": "`rand`"
+      },
+      {
+        "id": 170848,
+        "label": "`class`"
+      },
+      {
+        "id": 170849,
+        "label": "`send`"
+      },
+      {
+        "id": 170850,
+        "label": "`true`"
+      }
+    ],
+    "type": "multi_choice",
+    "correctAnswer": [
+      170848,
+      170850
+    ],
+    "questionCombinations": [
+      {
+        "answers": [
+          170846,
+          170847
+        ],
+        "tried": true
+      },
+      {
+        "answers": [
+          170846,
+          170848
+        ],
+        "tried": true
+      },
+      {
+        "answers": [
+          170846,
+          170849
+        ],
+        "tried": true
+      },
+      {
+        "answers": [
+          170846,
+          170850
+        ],
+        "tried": true
+      },
+      {
+        "answers": [
+          170847,
+          170848
+        ],
+        "tried": true
+      },
+      {
+        "answers": [
+          170847,
+          170849
+        ],
+        "tried": true
+      },
+      {
+        "answers": [
+          170847,
+          170850
+        ],
+        "tried": true
+      },
+      {
+        "answers": [
+          170848,
+          170849
+        ],
+        "tried": true
+      },
+      {
+        "answers": [
+          170848,
+          170850
+        ],
+        "tried": true
+      },
+      {
+        "answers": [
+          170849,
+          170850
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170846,
+          170847,
+          170848
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170846,
+          170847,
+          170849
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170846,
+          170847,
+          170850
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170846,
+          170848,
+          170849
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170846,
+          170848,
+          170850
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170846,
+          170849,
+          170850
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170847,
+          170848,
+          170849
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170847,
+          170848,
+          170850
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170847,
+          170849,
+          170850
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170848,
+          170849,
+          170850
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170846,
+          170847,
+          170848,
+          170849
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170846,
+          170847,
+          170848,
+          170850
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170846,
+          170847,
+          170849,
+          170850
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170846,
+          170848,
+          170849,
+          170850
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170847,
+          170848,
+          170849,
+          170850
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170846,
+          170847,
+          170848,
+          170849,
+          170850
+        ],
+        "tried": false
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "43148": {
+    "id": 43148,
+    "choices": [
+      {
+        "id": 170851,
+        "label": "`3y`"
+      },
+      {
+        "id": 170852,
+        "label": "`false`"
+      },
+      {
+        "id": 170853,
+        "label": "`_9class`"
+      },
+      {
+        "id": 170854,
+        "label": "`xyz$`"
+      }
+    ],
+    "type": "single_choice",
+    "correctAnswer": 170853,
+    "questionCombinations": [
+      {
+        "answers": 170851,
+        "tried": true
+      },
+      {
+        "answers": 170852,
+        "tried": true
+      },
+      {
+        "answers": 170853,
+        "tried": true
+      },
+      {
+        "answers": 170854,
+        "tried": false
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "43149": {
+    "id": 43149,
+    "choices": [
+      {
+        "id": 170855,
+        "label": "`puts \"i like writing #{$code}\"`"
+      },
+      {
+        "id": 170856,
+        "label": "`puts \"i like writing #$code\"`"
+      },
+      {
+        "id": 170857,
+        "label": "`puts 'i like writing #{$code}'`"
+      },
+      {
+        "id": 170858,
+        "label": "`puts 'i like writing #$code'`"
+      }
+    ],
+    "type": "multi_choice",
+    "correctAnswer": [
+      170855,
+      170856
+    ],
+    "questionCombinations": [
+      {
+        "answers": [
+          170855,
+          170856
+        ],
+        "tried": true
+      },
+      {
+        "answers": [
+          170855,
+          170857
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170855,
+          170858
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170856,
+          170857
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170856,
+          170858
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170857,
+          170858
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170855,
+          170856,
+          170857
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170855,
+          170856,
+          170858
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170855,
+          170857,
+          170858
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170856,
+          170857,
+          170858
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170855,
+          170856,
+          170857,
+          170858
+        ],
+        "tried": false
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "43150": {
+    "id": 43150,
+    "choices": [
+      {
+        "id": 170859,
+        "label": "`nil`"
+      },
+      {
+        "id": 170860,
+        "label": "`025`"
+      },
+      {
+        "id": 170861,
+        "label": "`21`"
+      },
+      {
+        "id": 170862,
+        "label": "`25`"
+      }
+    ],
+    "type": "single_choice",
+    "correctAnswer": 170861,
+    "questionCombinations": [
+      {
+        "answers": 170859,
+        "tried": true
+      },
+      {
+        "answers": 170860,
+        "tried": true
+      },
+      {
+        "answers": 170861,
+        "tried": true
+      },
+      {
+        "answers": 170862,
+        "tried": false
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "43151": {
+    "id": 43151,
+    "choices": [
+      {
+        "id": 170863,
+        "label": "`1`"
+      },
+      {
+        "id": 170864,
+        "label": "`2`"
+      },
+      {
+        "id": 170865,
+        "label": "`\"Hello\"`"
+      },
+      {
+        "id": 170866,
+        "label": "`true`"
+      }
+    ],
+    "type": "single_choice",
+    "correctAnswer": 170864,
+    "questionCombinations": [
+      {
+        "answers": 170863,
+        "tried": true
+      },
+      {
+        "answers": 170864,
+        "tried": true
+      },
+      {
+        "answers": 170865,
+        "tried": false
+      },
+      {
+        "answers": 170866,
+        "tried": false
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "43152": {
+    "id": 43152,
+    "choices": [
+      {
+        "id": 170867,
+        "label": "`\"S\"`"
+      },
+      {
+        "id": 170868,
+        "label": "`\"M\"`"
+      },
+      {
+        "id": 170869,
+        "label": "`\"L\"`"
+      },
+      {
+        "id": 170870,
+        "label": "`\"XL\"`"
+      }
+    ],
+    "type": "single_choice",
+    "correctAnswer": 170867,
+    "questionCombinations": [
+      {
+        "answers": 170867,
+        "tried": true
+      },
+      {
+        "answers": 170868,
+        "tried": false
+      },
+      {
+        "answers": 170869,
+        "tried": false
+      },
+      {
+        "answers": 170870,
+        "tried": false
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "43153": {
+    "id": 43153,
+    "choices": [
+      {
+        "id": 170871,
+        "label": "A syntax error occurs"
+      },
+      {
+        "id": 170872,
+        "label": "An exception is raised"
+      },
+      {
+        "id": 170873,
+        "label": "```\nbanana\ncarrot\ndaikon\ndaikon\n```"
+      },
+      {
+        "id": 170874,
+        "label": "```\nbanana\ncarrot\ndaikon\napple\n```"
+      }
+    ],
+    "type": "single_choice",
+    "correctAnswer": 170874,
+    "questionCombinations": [
+      {
+        "answers": 170871,
+        "tried": true
+      },
+      {
+        "answers": 170872,
+        "tried": true
+      },
+      {
+        "answers": 170873,
+        "tried": true
+      },
+      {
+        "answers": 170874,
+        "tried": true
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "43154": {
+    "id": 43154,
+    "choices": [
+      {
+        "id": 170875,
+        "label": "`0`"
+      },
+      {
+        "id": 170876,
+        "label": "`4`"
+      },
+      {
+        "id": 170877,
+        "label": "`6`"
+      },
+      {
+        "id": 170878,
+        "label": "A syntax error occurs"
+      }
+    ],
+    "type": "single_choice",
+    "correctAnswer": 170877,
+    "questionCombinations": [
+      {
+        "answers": 170875,
+        "tried": true
+      },
+      {
+        "answers": 170876,
+        "tried": true
+      },
+      {
+        "answers": 170877,
+        "tried": true
+      },
+      {
+        "answers": 170878,
+        "tried": false
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "43155": {
+    "id": 43155,
+    "choices": [
+      {
+        "id": 170879,
+        "label": "`[97, 98, 99, 100, 101]`"
+      },
+      {
+        "id": 170880,
+        "label": "`[194, 196, 198, 200, 202]`"
+      },
+      {
+        "id": 170881,
+        "label": "`[\"a\", \"b\", \"c\", \"d\", \"e\"]`"
+      },
+      {
+        "id": 170882,
+        "label": "`[\"aa\", \"bb\", \"cc\", \"dd\", \"ee\"]`"
+      },
+      {
+        "id": 170883,
+        "label": "An error occurs at run-time."
+      }
+    ],
+    "type": "single_choice",
+    "correctAnswer": 170882,
+    "questionCombinations": [
+      {
+        "answers": 170879,
+        "tried": true
+      },
+      {
+        "answers": 170880,
+        "tried": true
+      },
+      {
+        "answers": 170881,
+        "tried": true
+      },
+      {
+        "answers": 170882,
+        "tried": true
+      },
+      {
+        "answers": 170883,
+        "tried": false
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "43156": {
+    "id": 43156,
+    "choices": [
+      {
+        "id": 170884,
+        "label": "`{99=>2, 111=>2, 97=>1}`"
+      },
+      {
+        "id": 170885,
+        "label": "`{?c=>2, ?o=>2, ?a=>1}`"
+      },
+      {
+        "id": 170886,
+        "label": "`{\"c\"=>2, \"o\"=>2, \"a\"=>1}`"
+      },
+      {
+        "id": 170887,
+        "label": "An error occurs at run-time."
+      }
+    ],
+    "type": "single_choice",
+    "correctAnswer": 170886,
+    "questionCombinations": [
+      {
+        "answers": 170884,
+        "tried": true
+      },
+      {
+        "answers": 170885,
+        "tried": true
+      },
+      {
+        "answers": 170886,
+        "tried": true
+      },
+      {
+        "answers": 170887,
+        "tried": false
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "43157": {
+    "id": 43157,
+    "choices": [
+      {
+        "id": 170888,
+        "label": "`sub`"
+      },
+      {
+        "id": 170889,
+        "label": "`gsub`"
+      },
+      {
+        "id": 170890,
+        "label": "`replace`"
+      },
+      {
+        "id": 170891,
+        "label": "`replace_all`"
+      }
+    ],
+    "type": "single_choice",
+    "correctAnswer": 170889,
+    "questionCombinations": [
+      {
+        "answers": 170888,
+        "tried": true
+      },
+      {
+        "answers": 170889,
+        "tried": true
+      },
+      {
+        "answers": 170890,
+        "tried": false
+      },
+      {
+        "answers": 170891,
+        "tried": false
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "43158": {
+    "id": 43158,
+    "choices": [
+      {
+        "id": 170892,
+        "label": "`\"blank\"`"
+      },
+      {
+        "id": 170893,
+        "label": "`\"long\"`"
+      },
+      {
+        "id": 170894,
+        "label": "`\"short\"`"
+      },
+      {
+        "id": 170895,
+        "label": "An exception is raised"
+      }
+    ],
+    "type": "single_choice",
+    "correctAnswer": 170894,
+    "questionCombinations": [
+      {
+        "answers": 170892,
+        "tried": true
+      },
+      {
+        "answers": 170893,
+        "tried": true
+      },
+      {
+        "answers": 170894,
+        "tried": true
+      },
+      {
+        "answers": 170895,
+        "tried": false
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "43159": {
+    "id": 43159,
+    "choices": [
+      {
+        "id": 170896,
+        "label": "```\n0\n100\n```"
+      },
+      {
+        "id": 170897,
+        "label": "```\nnil\n100\n```"
+      },
+      {
+        "id": 170898,
+        "label": "```\nfalse\n100\n```"
+      },
+      {
+        "id": 170899,
+        "label": "A syntax error occurs."
+      },
+      {
+        "id": 170900,
+        "label": "An error occurs at run-time."
+      }
+    ],
+    "type": "single_choice",
+    "correctAnswer": 170897,
+    "questionCombinations": [
+      {
+        "answers": 170896,
+        "tried": true
+      },
+      {
+        "answers": 170897,
+        "tried": true
+      },
+      {
+        "answers": 170898,
+        "tried": false
+      },
+      {
+        "answers": 170899,
+        "tried": false
+      },
+      {
+        "answers": 170900,
+        "tried": false
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "43160": {
+    "id": 43160,
+    "choices": [
+      {
+        "id": 170901,
+        "label": "`[1, 2, 3]`"
+      },
+      {
+        "id": 170902,
+        "label": "`[1, 4, 5]`"
+      },
+      {
+        "id": 170903,
+        "label": "A syntax error occurs."
+      },
+      {
+        "id": 170904,
+        "label": "An error occurs at run-time."
+      }
+    ],
+    "type": "single_choice",
+    "correctAnswer": 170902,
+    "questionCombinations": [
+      {
+        "answers": 170901,
+        "tried": true
+      },
+      {
+        "answers": 170902,
+        "tried": true
+      },
+      {
+        "answers": 170903,
+        "tried": false
+      },
+      {
+        "answers": 170904,
+        "tried": false
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "43161": {
+    "id": 43161,
+    "choices": [
+      {
+        "id": 170905,
+        "label": "`foo(*h)`"
+      },
+      {
+        "id": 170906,
+        "label": "`foo(**h)`"
+      },
+      {
+        "id": 170907,
+        "label": "`foo(&h)`"
+      },
+      {
+        "id": 170908,
+        "label": "`foo(^h)`"
+      }
+    ],
+    "type": "single_choice",
+    "correctAnswer": 170906,
+    "questionCombinations": [
+      {
+        "answers": 170905,
+        "tried": true
+      },
+      {
+        "answers": 170906,
+        "tried": true
+      },
+      {
+        "answers": 170907,
+        "tried": false
+      },
+      {
+        "answers": 170908,
+        "tried": false
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "43162": {
+    "id": 43162,
+    "choices": [
+      {
+        "id": 170909,
+        "label": "`/\\A[Rr]uby\\z/`"
+      },
+      {
+        "id": 170910,
+        "label": "`/\\ARuby|ruby\\z/`"
+      },
+      {
+        "id": 170911,
+        "label": "`/\\A[Rr][u][b][y]\\z/`"
+      },
+      {
+        "id": 170912,
+        "label": "`/\\AR|ruby\\z/`"
+      }
+    ],
+    "type": "multi_choice",
+    "correctAnswer": [
+      170909,
+      170911
+    ],
+    "questionCombinations": [
+      {
+        "answers": [
+          170909,
+          170910
+        ],
+        "tried": true
+      },
+      {
+        "answers": [
+          170909,
+          170911
+        ],
+        "tried": true
+      },
+      {
+        "answers": [
+          170909,
+          170912
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170910,
+          170911
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170910,
+          170912
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170911,
+          170912
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170909,
+          170910,
+          170911
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170909,
+          170910,
+          170912
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170909,
+          170911,
+          170912
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170910,
+          170911,
+          170912
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170909,
+          170910,
+          170911,
+          170912
+        ],
+        "tried": false
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "43163": {
+    "id": 43163,
+    "choices": [
+      {
+        "id": 170913,
+        "label": "`47` is displayed without warning."
+      },
+      {
+        "id": 170914,
+        "label": "An error occurs because MSG is a constant."
+      },
+      {
+        "id": 170915,
+        "label": "`42` is displayed because MSG is a constant."
+      },
+      {
+        "id": 170916,
+        "label": "A warning appears beacuse MSG is a constant but `47` is displayed."
+      }
+    ],
+    "type": "single_choice",
+    "correctAnswer": 170916,
+    "questionCombinations": [
+      {
+        "answers": 170913,
+        "tried": true
+      },
+      {
+        "answers": 170914,
+        "tried": true
+      },
+      {
+        "answers": 170915,
+        "tried": true
+      },
+      {
+        "answers": 170916,
+        "tried": true
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "43164": {
+    "id": 43164,
+    "choices": [
+      {
+        "id": 170917,
+        "label": "An error occurs because MSG is a constant."
+      },
+      {
+        "id": 170918,
+        "label": "`HELLO` is displayed without warning."
+      },
+      {
+        "id": 170919,
+        "label": "A warning apears because MSG is a constant but `HELLO` is displayed"
+      },
+      {
+        "id": 170920,
+        "label": "`hello` is displayed since MSG is a constant."
+      }
+    ],
+    "type": "single_choice",
+    "correctAnswer": 170918,
+    "questionCombinations": [
+      {
+        "answers": 170917,
+        "tried": true
+      },
+      {
+        "answers": 170918,
+        "tried": true
+      },
+      {
+        "answers": 170919,
+        "tried": false
+      },
+      {
+        "answers": 170920,
+        "tried": false
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "43166": {
+    "id": 43166,
+    "choices": [
+      {
+        "id": 170926,
+        "label": "```\n[1, 3, 5, 7]\n[1, 2, 3, 4, 5, 6, 7, 8]\n```"
+      },
+      {
+        "id": 170927,
+        "label": "```\n[1, 2, 3, 4, 5, 6, 7, 8]\n[1, 2, 3, 4, 5, 6, 7, 8]\n```"
+      },
+      {
+        "id": 170928,
+        "label": "```\n[1, 3, 5, 7]\n[1, 3, 5, 7]\n```"
+      },
+      {
+        "id": 170929,
+        "label": "```\n[1, 3, 5, 7]\n[2, 4, 6, 8]\n```"
+      }
+    ],
+    "type": "single_choice",
+    "correctAnswer": 170928,
+    "questionCombinations": [
+      {
+        "answers": 170926,
+        "tried": true
+      },
+      {
+        "answers": 170927,
+        "tried": true
+      },
+      {
+        "answers": 170928,
+        "tried": true
+      },
+      {
+        "answers": 170929,
+        "tried": false
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "43167": {
+    "id": 43167,
+    "choices": [
+      {
+        "id": 170930,
+        "label": "a"
+      },
+      {
+        "id": 170931,
+        "label": "b"
+      },
+      {
+        "id": 170932,
+        "label": "c"
+      },
+      {
+        "id": 170933,
+        "label": "d"
+      }
+    ],
+    "type": "single_choice",
+    "correctAnswer": 170932,
+    "questionCombinations": [
+      {
+        "answers": 170930,
+        "tried": true
+      },
+      {
+        "answers": 170931,
+        "tried": true
+      },
+      {
+        "answers": 170932,
+        "tried": true
+      },
+      {
+        "answers": 170933,
+        "tried": false
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "43168": {
+    "id": 43168,
+    "choices": [
+      {
+        "id": 170934,
+        "label": "`x[1, 3]`"
+      },
+      {
+        "id": 170935,
+        "label": "`x[1..-1]`"
+      },
+      {
+        "id": 170936,
+        "label": "`x[-3..-1]`"
+      },
+      {
+        "id": 170937,
+        "label": "`x[-4..-2]`"
+      }
+    ],
+    "type": "multi_choice",
+    "correctAnswer": [
+      170934,
+      170937
+    ],
+    "questionCombinations": [
+      {
+        "answers": [
+          170934,
+          170935
+        ],
+        "tried": true
+      },
+      {
+        "answers": [
+          170934,
+          170936
+        ],
+        "tried": true
+      },
+      {
+        "answers": [
+          170934,
+          170937
+        ],
+        "tried": true
+      },
+      {
+        "answers": [
+          170935,
+          170936
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170935,
+          170937
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170936,
+          170937
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170934,
+          170935,
+          170936
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170934,
+          170935,
+          170937
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170934,
+          170936,
+          170937
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170935,
+          170936,
+          170937
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170934,
+          170935,
+          170936,
+          170937
+        ],
+        "tried": false
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "43169": {
+    "id": 43169,
+    "choices": [
+      {
+        "id": 170938,
+        "label": "`|`"
+      },
+      {
+        "id": 170939,
+        "label": "`||`"
+      },
+      {
+        "id": 170940,
+        "label": "`&`"
+      },
+      {
+        "id": 170941,
+        "label": "`&&`"
+      }
+    ],
+    "type": "single_choice",
+    "correctAnswer": 170939,
+    "questionCombinations": [
+      {
+        "answers": 170938,
+        "tried": true
+      },
+      {
+        "answers": 170939,
+        "tried": true
+      },
+      {
+        "answers": 170940,
+        "tried": false
+      },
+      {
+        "answers": 170941,
+        "tried": false
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "43170": {
+    "id": 43170,
+    "choices": [
+      {
+        "id": 170942,
+        "label": "`true`"
+      },
+      {
+        "id": 170943,
+        "label": "`false`"
+      },
+      {
+        "id": 170944,
+        "label": "`nil`"
+      },
+      {
+        "id": 170945,
+        "label": "A syntax error occurs."
+      }
+    ],
+    "type": "single_choice",
+    "correctAnswer": 170944,
+    "questionCombinations": [
+      {
+        "answers": 170942,
+        "tried": true
+      },
+      {
+        "answers": 170943,
+        "tried": true
+      },
+      {
+        "answers": 170944,
+        "tried": true
+      },
+      {
+        "answers": 170945,
+        "tried": false
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "43171": {
+    "id": 43171,
+    "choices": [
+      {
+        "id": 170946,
+        "label": "`collect`"
+      },
+      {
+        "id": 170947,
+        "label": "`select`"
+      },
+      {
+        "id": 170948,
+        "label": "`map`"
+      },
+      {
+        "id": 170949,
+        "label": "`filter`"
+      },
+      {
+        "id": 170950,
+        "label": "`filter_map`"
+      }
+    ],
+    "type": "multi_choice",
+    "correctAnswer": [
+      170947,
+      170949
+    ],
+    "questionCombinations": [
+      {
+        "answers": [
+          170946,
+          170947
+        ],
+        "tried": true
+      },
+      {
+        "answers": [
+          170946,
+          170948
+        ],
+        "tried": true
+      },
+      {
+        "answers": [
+          170946,
+          170949
+        ],
+        "tried": true
+      },
+      {
+        "answers": [
+          170946,
+          170950
+        ],
+        "tried": true
+      },
+      {
+        "answers": [
+          170947,
+          170948
+        ],
+        "tried": true
+      },
+      {
+        "answers": [
+          170947,
+          170949
+        ],
+        "tried": true
+      },
+      {
+        "answers": [
+          170947,
+          170950
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170948,
+          170949
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170948,
+          170950
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170949,
+          170950
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170946,
+          170947,
+          170948
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170946,
+          170947,
+          170949
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170946,
+          170947,
+          170950
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170946,
+          170948,
+          170949
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170946,
+          170948,
+          170950
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170946,
+          170949,
+          170950
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170947,
+          170948,
+          170949
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170947,
+          170948,
+          170950
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170947,
+          170949,
+          170950
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170948,
+          170949,
+          170950
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170946,
+          170947,
+          170948,
+          170949
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170946,
+          170947,
+          170948,
+          170950
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170946,
+          170947,
+          170949,
+          170950
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170946,
+          170948,
+          170949,
+          170950
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170947,
+          170948,
+          170949,
+          170950
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170946,
+          170947,
+          170948,
+          170949,
+          170950
+        ],
+        "tried": false
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "43172": {
+    "id": 43172,
+    "choices": [
+      {
+        "id": 170951,
+        "label": "`42`"
+      },
+      {
+        "id": 170952,
+        "label": "`42A7`"
+      },
+      {
+        "id": 170953,
+        "label": "`17063`"
+      },
+      {
+        "id": 170954,
+        "label": "An error occurs at run-time."
+      }
+    ],
+    "type": "single_choice",
+    "correctAnswer": 170951,
+    "questionCombinations": [
+      {
+        "answers": 170951,
+        "tried": true
+      },
+      {
+        "answers": 170952,
+        "tried": false
+      },
+      {
+        "answers": 170953,
+        "tried": false
+      },
+      {
+        "answers": 170954,
+        "tried": false
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "43173": {
+    "id": 43173,
+    "choices": [
+      {
+        "id": 170955,
+        "label": "`p h.has_key?(:c)`"
+      },
+      {
+        "id": 170956,
+        "label": "`p h.contain?(:c)`"
+      },
+      {
+        "id": 170957,
+        "label": "`p h.include?(:c)`"
+      },
+      {
+        "id": 170958,
+        "label": "`p h.key?(:c)`"
+      },
+      {
+        "id": 170959,
+        "label": "`p h.member?(:c)`"
+      }
+    ],
+    "type": "single_choice",
+    "correctAnswer": 170956,
+    "questionCombinations": [
+      {
+        "answers": 170955,
+        "tried": true
+      },
+      {
+        "answers": 170956,
+        "tried": true
+      },
+      {
+        "answers": 170957,
+        "tried": false
+      },
+      {
+        "answers": 170958,
+        "tried": false
+      },
+      {
+        "answers": 170959,
+        "tried": false
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "43174": {
+    "id": 43174,
+    "choices": [
+      {
+        "id": 170960,
+        "label": "`reject! {|i| i < 80}`"
+      },
+      {
+        "id": 170961,
+        "label": "`slice {|i| i < 80 }`"
+      },
+      {
+        "id": 170962,
+        "label": "`slice! {|i| i < 80}`"
+      },
+      {
+        "id": 170963,
+        "label": "`delete_if! {|i| i < 80}`"
+      },
+      {
+        "id": 170964,
+        "label": "`delete_if {|i| i < 80}`"
+      },
+      {
+        "id": 170965,
+        "label": "`reject {|i| i < 80}`"
+      }
+    ],
+    "type": "multi_choice",
+    "correctAnswer": [
+      170960,
+      170964
+    ],
+    "questionCombinations": [
+      {
+        "answers": [
+          170960,
+          170961
+        ],
+        "tried": true
+      },
+      {
+        "answers": [
+          170960,
+          170962
+        ],
+        "tried": true
+      },
+      {
+        "answers": [
+          170960,
+          170963
+        ],
+        "tried": true
+      },
+      {
+        "answers": [
+          170960,
+          170964
+        ],
+        "tried": true
+      },
+      {
+        "answers": [
+          170960,
+          170965
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170961,
+          170962
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170961,
+          170963
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170961,
+          170964
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170961,
+          170965
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170962,
+          170963
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170962,
+          170964
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170962,
+          170965
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170963,
+          170964
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170963,
+          170965
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170964,
+          170965
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170960,
+          170961,
+          170962
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170960,
+          170961,
+          170963
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170960,
+          170961,
+          170964
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170960,
+          170961,
+          170965
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170960,
+          170962,
+          170963
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170960,
+          170962,
+          170964
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170960,
+          170962,
+          170965
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170960,
+          170963,
+          170964
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170960,
+          170963,
+          170965
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170960,
+          170964,
+          170965
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170961,
+          170962,
+          170963
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170961,
+          170962,
+          170964
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170961,
+          170962,
+          170965
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170961,
+          170963,
+          170964
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170961,
+          170963,
+          170965
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170961,
+          170964,
+          170965
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170962,
+          170963,
+          170964
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170962,
+          170963,
+          170965
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170962,
+          170964,
+          170965
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170963,
+          170964,
+          170965
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170960,
+          170961,
+          170962,
+          170963
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170960,
+          170961,
+          170962,
+          170964
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170960,
+          170961,
+          170962,
+          170965
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170960,
+          170961,
+          170963,
+          170964
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170960,
+          170961,
+          170963,
+          170965
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170960,
+          170961,
+          170964,
+          170965
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170960,
+          170962,
+          170963,
+          170964
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170960,
+          170962,
+          170963,
+          170965
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170960,
+          170962,
+          170964,
+          170965
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170960,
+          170963,
+          170964,
+          170965
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170961,
+          170962,
+          170963,
+          170964
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170961,
+          170962,
+          170963,
+          170965
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170961,
+          170962,
+          170964,
+          170965
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170961,
+          170963,
+          170964,
+          170965
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170962,
+          170963,
+          170964,
+          170965
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170960,
+          170961,
+          170962,
+          170963,
+          170964
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170960,
+          170961,
+          170962,
+          170963,
+          170965
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170960,
+          170961,
+          170962,
+          170964,
+          170965
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170960,
+          170961,
+          170963,
+          170964,
+          170965
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170960,
+          170962,
+          170963,
+          170964,
+          170965
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170961,
+          170962,
+          170963,
+          170964,
+          170965
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          170960,
+          170961,
+          170962,
+          170963,
+          170964,
+          170965
+        ],
+        "tried": false
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "43175": {
+    "id": 43175,
+    "choices": [
+      {
+        "id": 170966,
+        "label": "`.concat`"
+      },
+      {
+        "id": 170967,
+        "label": "`&`"
+      },
+      {
+        "id": 170968,
+        "label": "`|`"
+      },
+      {
+        "id": 170969,
+        "label": "`||`"
+      }
+    ],
+    "type": "single_choice",
+    "correctAnswer": 170968,
+    "questionCombinations": [
+      {
+        "answers": 170966,
+        "tried": true
+      },
+      {
+        "answers": 170967,
+        "tried": true
+      },
+      {
+        "answers": 170968,
+        "tried": true
+      },
+      {
+        "answers": 170969,
+        "tried": false
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "43176": {
+    "id": 43176,
+    "choices": [
+      {
+        "id": 170970,
+        "label": "No output."
+      },
+      {
+        "id": 170971,
+        "label": "An error occurs at run-time."
+      },
+      {
+        "id": 170972,
+        "label": "`MOO!`"
+      },
+      {
+        "id": 170973,
+        "label": "`nil`"
+      }
+    ],
+    "type": "single_choice",
+    "correctAnswer": 170972,
+    "questionCombinations": [
+      {
+        "answers": 170970,
+        "tried": true
+      },
+      {
+        "answers": 170971,
+        "tried": true
+      },
+      {
+        "answers": 170972,
+        "tried": true
+      },
+      {
+        "answers": 170973,
+        "tried": false
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "43177": {
+    "id": 43177,
+    "choices": [
+      {
+        "id": 170974,
+        "label": "an `UndefinedParentClassError` exception is raised"
+      },
+      {
+        "id": 170975,
+        "label": "a syntax error occurs"
+      },
+      {
+        "id": 170976,
+        "label": "the `Module` class becomes the superclass."
+      },
+      {
+        "id": 170977,
+        "label": "the class is created without a superclass."
+      },
+      {
+        "id": 170978,
+        "label": "the `Object` class becomes the superclass."
+      }
+    ],
+    "type": "single_choice",
+    "correctAnswer": 170978,
+    "questionCombinations": [
+      {
+        "answers": 170974,
+        "tried": true
+      },
+      {
+        "answers": 170975,
+        "tried": true
+      },
+      {
+        "answers": 170976,
+        "tried": true
+      },
+      {
+        "answers": 170977,
+        "tried": true
+      },
+      {
+        "answers": 170978,
+        "tried": true
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "43178": {
+    "id": 43178,
+    "choices": [
+      {
+        "id": 170979,
+        "label": "A syntax error"
+      },
+      {
+        "id": 170980,
+        "label": "`SomeError`"
+      },
+      {
+        "id": 170981,
+        "label": "`SomeErrorSomeOtherError`"
+      },
+      {
+        "id": 170982,
+        "label": "`SomeOtherError`"
+      }
+    ],
+    "type": "single_choice",
+    "correctAnswer": 170980,
+    "questionCombinations": [
+      {
+        "answers": 170979,
+        "tried": true
+      },
+      {
+        "answers": 170980,
+        "tried": true
+      },
+      {
+        "answers": 170981,
+        "tried": false
+      },
+      {
+        "answers": 170982,
+        "tried": false
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "43179": {
+    "id": 43179,
+    "choices": [
+      {
+        "id": 170983,
+        "label": "`\"x1 x2 x3\"`"
+      },
+      {
+        "id": 170984,
+        "label": "`[1, 2, 3]`"
+      },
+      {
+        "id": 170985,
+        "label": "`[\"x1\", \"x2\", \"x3\"]`"
+      },
+      {
+        "id": 170986,
+        "label": "`[:x1, :x2, :x3]`"
+      }
+    ],
+    "type": "single_choice",
+    "correctAnswer": 170986,
+    "questionCombinations": [
+      {
+        "answers": 170983,
+        "tried": true
+      },
+      {
+        "answers": 170984,
+        "tried": true
+      },
+      {
+        "answers": 170985,
+        "tried": true
+      },
+      {
+        "answers": 170986,
+        "tried": true
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "43180": {
+    "id": 43180,
+    "choices": [
+      {
+        "id": 170987,
+        "label": "```\n0\nDONE!\n```"
+      },
+      {
+        "id": 170988,
+        "label": "```\nError: ZeroDivisionError\n```"
+      },
+      {
+        "id": 170989,
+        "label": "```\nError: ZeroDivisionError\nDONE!\n```"
+      },
+      {
+        "id": 170990,
+        "label": "```\nError: ZeroDivisionError\n0\n```"
+      }
+    ],
+    "type": "single_choice",
+    "correctAnswer": 170989,
+    "questionCombinations": [
+      {
+        "answers": 170987,
+        "tried": true
+      },
+      {
+        "answers": 170988,
+        "tried": true
+      },
+      {
+        "answers": 170989,
+        "tried": true
+      },
+      {
+        "answers": 170990,
+        "tried": false
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "43181": {
+    "id": 43181,
+    "choices": [
+      {
+        "id": 170991,
+        "label": "`Shouter`"
+      },
+      {
+        "id": 170992,
+        "label": "`new`"
+      },
+      {
+        "id": 170993,
+        "label": "`initialize`"
+      },
+      {
+        "id": 170994,
+        "label": "`__init__`"
+      }
+    ],
+    "type": "single_choice",
+    "correctAnswer": 170993,
+    "questionCombinations": [
+      {
+        "answers": 170991,
+        "tried": true
+      },
+      {
+        "answers": 170992,
+        "tried": true
+      },
+      {
+        "answers": 170993,
+        "tried": true
+      },
+      {
+        "answers": 170994,
+        "tried": false
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "43182": {
+    "id": 43182,
+    "choices": [
+      {
+        "id": 170995,
+        "label": "`Shouter`"
+      },
+      {
+        "id": 170996,
+        "label": "`#Shouter`"
+      },
+      {
+        "id": 170997,
+        "label": "`new Shouter`"
+      },
+      {
+        "id": 170998,
+        "label": "`Shouter.new`"
+      }
+    ],
+    "type": "single_choice",
+    "correctAnswer": 170998,
+    "questionCombinations": [
+      {
+        "answers": 170995,
+        "tried": true
+      },
+      {
+        "answers": 170996,
+        "tried": true
+      },
+      {
+        "answers": 170997,
+        "tried": true
+      },
+      {
+        "answers": 170998,
+        "tried": true
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "43183": {
+    "id": 43183,
+    "choices": [
+      {
+        "id": 170999,
+        "label": "`\"apple\"`"
+      },
+      {
+        "id": 171000,
+        "label": "`\"banana\"`"
+      },
+      {
+        "id": 171001,
+        "label": "No output"
+      },
+      {
+        "id": 171002,
+        "label": "An error occurs at run-time."
+      }
+    ],
+    "type": "single_choice",
+    "correctAnswer": 170999,
+    "questionCombinations": [
+      {
+        "answers": 170999,
+        "tried": true
+      },
+      {
+        "answers": 171000,
+        "tried": false
+      },
+      {
+        "answers": 171001,
+        "tried": false
+      },
+      {
+        "answers": 171002,
+        "tried": false
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "43184": {
+    "id": 43184,
+    "choices": [
+      {
+        "id": 171003,
+        "label": "`sub`"
+      },
+      {
+        "id": 171004,
+        "label": "`chop`"
+      },
+      {
+        "id": 171005,
+        "label": "`delete`"
+      },
+      {
+        "id": 171006,
+        "label": "`delete_prefix`"
+      }
+    ],
+    "type": "single_choice",
+    "correctAnswer": 171006,
+    "questionCombinations": [
+      {
+        "answers": 171003,
+        "tried": true
+      },
+      {
+        "answers": 171004,
+        "tried": true
+      },
+      {
+        "answers": 171005,
+        "tried": true
+      },
+      {
+        "answers": 171006,
+        "tried": true
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "43185": {
+    "id": 43185,
+    "choices": [
+      {
+        "id": 171007,
+        "label": "`\"hihihihihi\"`"
+      },
+      {
+        "id": 171008,
+        "label": "An error occurs at run-time."
+      },
+      {
+        "id": 171009,
+        "label": "`\"5hi\"`"
+      },
+      {
+        "id": 171010,
+        "label": "`\"5*hi\"`"
+      }
+    ],
+    "type": "single_choice",
+    "correctAnswer": 171008,
+    "questionCombinations": [
+      {
+        "answers": 171007,
+        "tried": true
+      },
+      {
+        "answers": 171008,
+        "tried": true
+      },
+      {
+        "answers": 171009,
+        "tried": false
+      },
+      {
+        "answers": 171010,
+        "tried": false
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "43186": {
+    "id": 43186,
+    "choices": [
+      {
+        "id": 171011,
+        "label": "`\"boo\"`"
+      },
+      {
+        "id": 171012,
+        "label": "`\"bot\"`"
+      },
+      {
+        "id": 171013,
+        "label": "`\"oat\"`"
+      },
+      {
+        "id": 171014,
+        "label": "`\"o\"`"
+      }
+    ],
+    "type": "single_choice",
+    "correctAnswer": 171012,
+    "questionCombinations": [
+      {
+        "answers": 171011,
+        "tried": true
+      },
+      {
+        "answers": 171012,
+        "tried": true
+      },
+      {
+        "answers": 171013,
+        "tried": false
+      },
+      {
+        "answers": 171014,
+        "tried": false
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "43187": {
+    "id": 43187,
+    "choices": [
+      {
+        "id": 171015,
+        "label": "`\"hello \"`"
+      },
+      {
+        "id": 171016,
+        "label": "`\"ruby\"`"
+      },
+      {
+        "id": 171017,
+        "label": "`\" world\"`"
+      },
+      {
+        "id": 171018,
+        "label": "An error occurs at run-time."
+      }
+    ],
+    "type": "single_choice",
+    "correctAnswer": 171016,
+    "questionCombinations": [
+      {
+        "answers": 171015,
+        "tried": true
+      },
+      {
+        "answers": 171016,
+        "tried": true
+      },
+      {
+        "answers": 171017,
+        "tried": false
+      },
+      {
+        "answers": 171018,
+        "tried": false
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "43188": {
+    "id": 43188,
+    "choices": [
+      {
+        "id": 171019,
+        "label": "`Dir.pwd`"
+      },
+      {
+        "id": 171020,
+        "label": "`Dir.rename`"
+      },
+      {
+        "id": 171021,
+        "label": "`Dir.basename`"
+      },
+      {
+        "id": 171022,
+        "label": "`Dir.chdir`"
+      },
+      {
+        "id": 171023,
+        "label": "`Dir.delete`"
+      }
+    ],
+    "type": "multi_choice",
+    "correctAnswer": [
+      171020,
+      171021
+    ],
+    "questionCombinations": [
+      {
+        "answers": [
+          171019,
+          171020
+        ],
+        "tried": true
+      },
+      {
+        "answers": [
+          171019,
+          171021
+        ],
+        "tried": true
+      },
+      {
+        "answers": [
+          171019,
+          171022
+        ],
+        "tried": true
+      },
+      {
+        "answers": [
+          171019,
+          171023
+        ],
+        "tried": true
+      },
+      {
+        "answers": [
+          171020,
+          171021
+        ],
+        "tried": true
+      },
+      {
+        "answers": [
+          171020,
+          171022
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          171020,
+          171023
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          171021,
+          171022
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          171021,
+          171023
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          171022,
+          171023
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          171019,
+          171020,
+          171021
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          171019,
+          171020,
+          171022
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          171019,
+          171020,
+          171023
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          171019,
+          171021,
+          171022
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          171019,
+          171021,
+          171023
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          171019,
+          171022,
+          171023
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          171020,
+          171021,
+          171022
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          171020,
+          171021,
+          171023
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          171020,
+          171022,
+          171023
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          171021,
+          171022,
+          171023
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          171019,
+          171020,
+          171021,
+          171022
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          171019,
+          171020,
+          171021,
+          171023
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          171019,
+          171020,
+          171022,
+          171023
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          171019,
+          171021,
+          171022,
+          171023
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          171020,
+          171021,
+          171022,
+          171023
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          171019,
+          171020,
+          171021,
+          171022,
+          171023
+        ],
+        "tried": false
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "43189": {
+    "id": 43189,
+    "choices": [
+      {
+        "id": 171024,
+        "label": "`r+`"
+      },
+      {
+        "id": 171025,
+        "label": "`a`"
+      },
+      {
+        "id": 171026,
+        "label": "`a+`"
+      },
+      {
+        "id": 171027,
+        "label": "`w`"
+      },
+      {
+        "id": 171028,
+        "label": "`w+`"
+      }
+    ],
+    "type": "multi_choice",
+    "correctAnswer": null,
+    "questionCombinations": [
+      {
+        "answers": [
+          171024,
+          171025
+        ],
+        "tried": true
+      },
+      {
+        "answers": [
+          171024,
+          171026
+        ],
+        "tried": true
+      },
+      {
+        "answers": [
+          171024,
+          171027
+        ],
+        "tried": true
+      },
+      {
+        "answers": [
+          171024,
+          171028
+        ],
+        "tried": true
+      },
+      {
+        "answers": [
+          171025,
+          171026
+        ],
+        "tried": true
+      },
+      {
+        "answers": [
+          171025,
+          171027
+        ],
+        "tried": true
+      },
+      {
+        "answers": [
+          171025,
+          171028
+        ],
+        "tried": true
+      },
+      {
+        "answers": [
+          171026,
+          171027
+        ],
+        "tried": true
+      },
+      {
+        "answers": [
+          171026,
+          171028
+        ],
+        "tried": true
+      },
+      {
+        "answers": [
+          171027,
+          171028
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          171024,
+          171025,
+          171026
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          171024,
+          171025,
+          171027
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          171024,
+          171025,
+          171028
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          171024,
+          171026,
+          171027
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          171024,
+          171026,
+          171028
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          171024,
+          171027,
+          171028
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          171025,
+          171026,
+          171027
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          171025,
+          171026,
+          171028
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          171025,
+          171027,
+          171028
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          171026,
+          171027,
+          171028
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          171024,
+          171025,
+          171026,
+          171027
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          171024,
+          171025,
+          171026,
+          171028
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          171024,
+          171025,
+          171027,
+          171028
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          171024,
+          171026,
+          171027,
+          171028
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          171025,
+          171026,
+          171027,
+          171028
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          171024,
+          171025,
+          171026,
+          171027,
+          171028
+        ],
+        "tried": false
+      }
+    ],
+    "foundCorrectAnswer": false
+  },
+  "43190": {
+    "id": 43190,
+    "choices": [
+      {
+        "id": 171029,
+        "label": "`array`"
+      },
+      {
+        "id": 171030,
+        "label": "`to_ary`"
+      },
+      {
+        "id": 171031,
+        "label": "`to_a`"
+      },
+      {
+        "id": 171032,
+        "label": "`to_array`"
+      }
+    ],
+    "type": "single_choice",
+    "correctAnswer": 171031,
+    "questionCombinations": [
+      {
+        "answers": 171029,
+        "tried": true
+      },
+      {
+        "answers": 171030,
+        "tried": true
+      },
+      {
+        "answers": 171031,
+        "tried": true
+      },
+      {
+        "answers": 171032,
+        "tried": false
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "43191": {
+    "id": 43191,
+    "choices": [
+      {
+        "id": 171033,
+        "label": "`r`"
+      },
+      {
+        "id": 171034,
+        "label": "`r+`"
+      },
+      {
+        "id": 171035,
+        "label": "`a`"
+      },
+      {
+        "id": 171036,
+        "label": "`a+`"
+      },
+      {
+        "id": 171037,
+        "label": "`w`"
+      },
+      {
+        "id": 171038,
+        "label": "`w+`"
+      }
+    ],
+    "type": "single_choice",
+    "correctAnswer": 171033,
+    "questionCombinations": [
+      {
+        "answers": 171033,
+        "tried": true
+      },
+      {
+        "answers": 171034,
+        "tried": false
+      },
+      {
+        "answers": 171035,
+        "tried": false
+      },
+      {
+        "answers": 171036,
+        "tried": false
+      },
+      {
+        "answers": 171037,
+        "tried": false
+      },
+      {
+        "answers": 171038,
+        "tried": false
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "43192": {
+    "id": 43192,
+    "choices": [
+      {
+        "id": 171039,
+        "label": "`[0, 1, 2]`"
+      },
+      {
+        "id": 171040,
+        "label": "`0`"
+      },
+      {
+        "id": 171041,
+        "label": "`[0, 1, 2, 3]`"
+      },
+      {
+        "id": 171042,
+        "label": "`true`"
+      }
+    ],
+    "type": "single_choice",
+    "correctAnswer": 171040,
+    "questionCombinations": [
+      {
+        "answers": 171039,
+        "tried": true
+      },
+      {
+        "answers": 171040,
+        "tried": true
+      },
+      {
+        "answers": 171041,
+        "tried": false
+      },
+      {
+        "answers": 171042,
+        "tried": false
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "43193": {
+    "id": 43193,
+    "choices": [
+      {
+        "id": 171043,
+        "label": "`sort_by { |x| -x }`"
+      },
+      {
+        "id": 171044,
+        "label": "`sort_reverse`"
+      },
+      {
+        "id": 171045,
+        "label": "`sort.reverse`"
+      },
+      {
+        "id": 171046,
+        "label": "`reverse.sort`"
+      }
+    ],
+    "type": "multi_choice",
+    "correctAnswer": [
+      171043,
+      171045
+    ],
+    "questionCombinations": [
+      {
+        "answers": [
+          171043,
+          171044
+        ],
+        "tried": true
+      },
+      {
+        "answers": [
+          171043,
+          171045
+        ],
+        "tried": true
+      },
+      {
+        "answers": [
+          171043,
+          171046
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          171044,
+          171045
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          171044,
+          171046
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          171045,
+          171046
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          171043,
+          171044,
+          171045
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          171043,
+          171044,
+          171046
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          171043,
+          171045,
+          171046
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          171044,
+          171045,
+          171046
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          171043,
+          171044,
+          171045,
+          171046
+        ],
+        "tried": false
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "43194": {
+    "id": 43194,
+    "choices": [
+      {
+        "id": 171047,
+        "label": "hello"
+      },
+      {
+        "id": 171048,
+        "label": "rubyworld"
+      },
+      {
+        "id": 171049,
+        "label": "hellor"
+      },
+      {
+        "id": 171050,
+        "label": "rubyw"
+      },
+      {
+        "id": 171051,
+        "label": "orubyworld"
+      }
+    ],
+    "type": "single_choice",
+    "correctAnswer": 171048,
+    "questionCombinations": [
+      {
+        "answers": 171047,
+        "tried": true
+      },
+      {
+        "answers": 171048,
+        "tried": true
+      },
+      {
+        "answers": 171049,
+        "tried": false
+      },
+      {
+        "answers": 171050,
+        "tried": false
+      },
+      {
+        "answers": 171051,
+        "tried": false
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "43195": {
+    "id": 43195,
+    "choices": [
+      {
+        "id": 171052,
+        "label": "`sort { |i,j| -i <= -j }`"
+      },
+      {
+        "id": 171053,
+        "label": "`sort { |i,j| -i <=> -j }`"
+      },
+      {
+        "id": 171054,
+        "label": "`sort { |i,j| i >= j }`"
+      },
+      {
+        "id": 171055,
+        "label": "`sort{ |i,j| i <=> j }`"
+      }
+    ],
+    "type": "single_choice",
+    "correctAnswer": 171053,
+    "questionCombinations": [
+      {
+        "answers": 171052,
+        "tried": true
+      },
+      {
+        "answers": 171053,
+        "tried": true
+      },
+      {
+        "answers": 171054,
+        "tried": false
+      },
+      {
+        "answers": 171055,
+        "tried": false
+      }
+    ],
+    "foundCorrectAnswer": true
+  },
+  "43196": {
+    "id": 43196,
+    "choices": [
+      {
+        "id": 171056,
+        "label": "a"
+      },
+      {
+        "id": 171057,
+        "label": "b"
+      },
+      {
+        "id": 171058,
+        "label": "c"
+      },
+      {
+        "id": 171059,
+        "label": "d"
+      },
+      {
+        "id": 171060,
+        "label": "e"
+      }
+    ],
+    "type": "multi_choice",
+    "correctAnswer": [
+      171057,
+      171060
+    ],
+    "questionCombinations": [
+      {
+        "answers": [
+          171056,
+          171057
+        ],
+        "tried": true
+      },
+      {
+        "answers": [
+          171056,
+          171058
+        ],
+        "tried": true
+      },
+      {
+        "answers": [
+          171056,
+          171059
+        ],
+        "tried": true
+      },
+      {
+        "answers": [
+          171056,
+          171060
+        ],
+        "tried": true
+      },
+      {
+        "answers": [
+          171057,
+          171058
+        ],
+        "tried": true
+      },
+      {
+        "answers": [
+          171057,
+          171059
+        ],
+        "tried": true
+      },
+      {
+        "answers": [
+          171057,
+          171060
+        ],
+        "tried": true
+      },
+      {
+        "answers": [
+          171058,
+          171059
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          171058,
+          171060
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          171059,
+          171060
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          171056,
+          171057,
+          171058
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          171056,
+          171057,
+          171059
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          171056,
+          171057,
+          171060
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          171056,
+          171058,
+          171059
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          171056,
+          171058,
+          171060
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          171056,
+          171059,
+          171060
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          171057,
+          171058,
+          171059
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          171057,
+          171058,
+          171060
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          171057,
+          171059,
+          171060
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          171058,
+          171059,
+          171060
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          171056,
+          171057,
+          171058,
+          171059
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          171056,
+          171057,
+          171058,
+          171060
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          171056,
+          171057,
+          171059,
+          171060
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          171056,
+          171058,
+          171059,
+          171060
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          171057,
+          171058,
+          171059,
+          171060
+        ],
+        "tried": false
+      },
+      {
+        "answers": [
+          171056,
+          171057,
+          171058,
+          171059,
+          171060
+        ],
+        "tried": false
+      }
+    ],
+    "foundCorrectAnswer": true
+  }
+}
