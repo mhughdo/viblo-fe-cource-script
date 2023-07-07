@@ -1,6 +1,6 @@
 /* eslint-disable no-var */
 var lang = 'en'
-var timeout = 500
+var timeout = 100
 var shouldAutoClick = true
 var fetchQuestions = async () => {
   try {
@@ -82,10 +82,9 @@ async function run() {
           if (shouldAutoClick) {
             providedAnswers[ord].querySelector('input').click()
           }
-        }
-
-        if (timeout) {
-          await wait()
+          if (timeout) {
+            await wait()
+          }
         }
       } else {
         if (timeout) {
